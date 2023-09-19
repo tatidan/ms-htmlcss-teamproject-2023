@@ -1,0 +1,29 @@
+:root {
+    /* COLORS */
+    --primary-black-color: #121417;
+    --light-black-color: rgba(18, 20, 23, 0.1);
+    --radiobutton-black-color: rgba(18, 20, 23, 0.2);
+    --light-black-text-color: rgba(18, 20, 23, 0.5);
+    --primary-white-color: #FFFFFF;
+    --primary-green-color: #4DC274;
+    --action-green-color: #38AE5F;
+    --green-linear-color: linear-gradient(
+        to right,
+        rgba(77, 194, 116, 1),
+        rgba(190, 232, 204, 1)
+    );
+    --black-linear-color: linear-gradient(
+        96deg, rgba(0, 0, 0, 0.40) 36.36%, rgba(0, 0, 0, 0.00) 51.43%
+    );
+    --light-green-color: #D4FDE1;
+    --light-2-green-color: #BEE8CC;
+    --light-gray-color: #F3F5F6;
+    --light-student-color: rgba(255, 255, 255, 0.5);
+    --light-footer-text-color: rgba(255, 255, 255, 0.6);
+
+    /* FONT-FAMILY */
+    --primary-font-family: 'Manrope', sans-serif;
+
+    /* TIMING */
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
