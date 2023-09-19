@@ -15,18 +15,7 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
-:root {
-  font-family: 'Manrope', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url(../base/common.css);
+@import url(../base/container.css);
+@import url(../components/buttons.css);
+@import url(../utils/variables.css);
