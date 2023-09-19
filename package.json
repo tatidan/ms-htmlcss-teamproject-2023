@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "ms-htmlcss-teamproject-2023",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/ms-htmlcss-teamproject-2023/",
     "preview": "vite preview"
   },
   "devDependencies": {
