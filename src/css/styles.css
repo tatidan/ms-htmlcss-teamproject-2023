@@ -15,6 +15,11 @@
 @import url('./reviews.css');
 @import url('./footer.css');
 
+@import url(./base/common.css);
+@import url(./base/container.css);
+@import url(./components/buttons.css);
+@import url(./utils/variables.css);
+
 :root {
   font-family: 'Manrope', sans-serif;
   font-size: 16px;
