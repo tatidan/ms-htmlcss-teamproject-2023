@@ -1,3 +1,7 @@
+.container {
+	max-width: 100%;
+}
+
 .header-container {
 	padding-bottom: 32px;
 }
@@ -11,6 +15,8 @@
 		display: flex;
 		align-items: center;
 		padding-bottom: 16px;
+
+		width: 1152px;
 	}
 	.nav-link {
 		position: relative;
