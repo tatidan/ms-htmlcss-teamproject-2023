@@ -1,7 +1,3 @@
-.container {
-	max-width: 100%;
-}
-
 .header-container {
 	padding-bottom: 32px;
 }
@@ -217,7 +213,7 @@
 	min-width: 32px;
 	min-height: 32px;
 	background-color: transparent;
-	border: transparent;	
+	border: transparent;
 }
 .mobile-menu-close-btn:focus {
 	outline: none;
