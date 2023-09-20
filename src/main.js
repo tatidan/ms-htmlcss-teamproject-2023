@@ -1,3 +1,6 @@
+import "./js/mobile-menu";
+
+
 // =====================scroll-top-button START======================
 
 const goTopBtn = document.querySelector(".scroll-top");
@@ -26,3 +29,4 @@ function goTop() {
 }
 
 // =====================scroll-top-button END======================
+
