@@ -1,0 +1,245 @@
+.header-container {
+	padding-bottom: 32px;
+}
+@media only screen and (min-width: 768px) {
+	.header-container {
+		padding-bottom: 8px;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.header-container {
+		display: flex;
+		align-items: center;
+		padding-bottom: 16px;
+	}
+	.nav-link {
+		position: relative;
+	}
+	.nav-link::after {
+		position: absolute;
+		bottom: -4px;
+		left: 0;
+		content: "";
+
+		display: block;
+		width: 37px;
+		height: 2px;
+
+		background-color: var(--primary-green-color);
+		opacity: 0;
+		transition: opacity 250ms var(--timing-function);
+	}
+	.nav-link:hover::after,
+	.nav-link:focus::after {
+		opacity: 1;
+	}
+}
+.mobile-menu-btn {
+	min-width: 32px;
+	min-height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+
+	padding: 0;
+	border: transparent;
+	background-color: transparent;
+}
+@media only screen and (min-width: 1280px) {
+	.mobile-menu-btn {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.mobile-menu-btn {
+		width: 40px;
+		height: 28px;
+	}
+	.icon-humburger {
+		min-width: 40px;
+		min-height: 28px;
+	}
+}
+.header-nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo.link {
+	display: inline-flex;
+	padding-top: 21px;
+	padding-bottom: 21px;
+	margin-right: 137px;
+
+	font-size: 20px;
+	font-weight: 700;
+	line-height: normal;
+}
+.logo-accent {
+	color: var(--primary-green-color);
+}
+.icon-humburger {
+	stroke: var(--primary-black-color);
+}
+
+.nav-list {
+	display: none;
+}
+.social-header-list {
+	display: none;
+}
+@media only screen and (min-width: 1280px) {
+	.nav-list {
+		display: flex;
+		gap: 20px;
+		margin-right: 137px;
+
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 1.29;
+	}
+
+	.social-header-list {
+		display: flex;
+		gap: 12px;
+	}
+	.social-link {
+		display: block;
+		width: 44px;
+		height: 44px;
+		padding: 8px;
+
+		border-radius: 10px;
+		border: 1px solid rgba(18, 20, 23, 0.1);
+
+		transition: border 250ms var(--timing-function);
+	}
+	.icon-social {
+		fill: inherit;
+
+		transition: fill 250ms var(--timing-function);
+	}
+	.social-link:hover,
+	.social-link:focus {
+		border: 1px solid rgba(77, 194, 116, 0.1);
+	}
+	.social-link:hover .icon-social,
+	.social-link:focus .icon-social {
+		fill: var(--primary-green-color);
+	}
+}
+
+/* MOBILE MENUU*/
+.mobile-backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(18, 20, 23, 0.4);
+
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+
+	transition: opacity 500ms ease-in-out 200ms, visibility 500ms ease-in-out 200ms;
+}
+
+@media only screen and (min-width: 1280px) {
+	.mobile-backdrop {
+		display: none;
+	}
+}
+
+.mobile-backdrop.is-open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: initial;
+	transition-delay: 0ms;
+}
+.mobile-menu-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+	margin-left: auto;
+	padding: 20px 0;
+
+	max-width: 240px;
+	width: 100%;
+	height: 100%;
+	background-color: #4dc274;
+	color: #fff;
+
+	transform: translateX(100%);
+	transition: transform 250ms ease-in-out;
+}
+@media only screen and (min-width: 768px) {
+	.mobile-menu-container {
+		max-width: 384px;
+	}
+}
+
+.mobile-backdrop.is-open .mobile-menu-container {
+	transform: translateX(0);
+}
+.mobile-menu-close-btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 0;
+
+	min-width: 32px;
+	min-height: 32px;
+	background-color: transparent;
+	border: transparent;
+}
+
+.icon-close-btn,
+.icon-social-mobile {
+	fill: var(--primary-white-color);
+}
+@media only screen and (min-width: 768px) {
+	.mobile-menu-close-btn {
+		width: 40px;
+		height: 40px;
+	}
+	.icon-close-btn {
+		width: 40px;
+		height: 40px;
+	}
+}
+.mobile-nav-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-top: 228px;
+}
+.mobile-link {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.29;
+}
+.mobile-social-list {
+	display: flex;
+	gap: 12px;
+	justify-content: center;
+	margin-top: auto;
+}
+.mobile-social-link {
+	display: block;
+	width: 42px;
+	height: 42px;
+	padding: 8px;
+
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
