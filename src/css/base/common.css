@@ -39,7 +39,22 @@ button {
     list-style: none;
 }
 
+/* Mobile-first */
 .section {
-  margin-bottom: 150px;
+  margin-bottom: 80px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .section {
+    margin-bottom: 100px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  .section {
+    margin-bottom: 150px;
+  }
 }
 /* ================== /COMMON ================== */
