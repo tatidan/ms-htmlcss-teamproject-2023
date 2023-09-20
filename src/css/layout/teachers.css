@@ -13,7 +13,7 @@
 .team-upper::before {
 	content: "";
 	position: absolute;
-	bottom: 6px;
+	bottom: 3px;
 	width: 139px;
 	height: 12px;
 	border-radius: 8px;
@@ -64,6 +64,7 @@
 		justify-content: center;
 	}
 	.team-upper::before {
+        bottom: 3px;
 		width: 170px;
 		height: 20px;
 	}
@@ -86,6 +87,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .team-discription {
+		width: 709px;
+        margin-right: auto;
+        margin-left: auto;
+	}
 	.team-list {
 		width: 1024px;
 		flex-wrap: nowrap;
