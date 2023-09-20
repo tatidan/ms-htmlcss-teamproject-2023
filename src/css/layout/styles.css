@@ -8,7 +8,10 @@
 
 @import url("../base/common.css");
 @import url("../base/container.css");
+
 @import url("../components/buttons.css");
+@import url("../components/scroll-top.css");
+
 @import url("../utils/variables.css");
 
 @import url("./header.css");
