@@ -86,6 +86,11 @@
 	font-size: 20px;
 	font-weight: 700;
 	line-height: normal;
+
+	transition: transform 250ms var(--timing-function);
+}
+.logo:hover {
+	transform: scale(1.1);
 }
 .logo:focus {
 	outline: none;
@@ -131,7 +136,7 @@
 		padding: 8px;
 
 		border-radius: 10px;
-		border: 1px solid rgba(18, 20, 23, 0.1);
+		border: 1px solid var(--light-black-color);
 
 		transition: border 250ms var(--timing-function), outline 250ms var(--timing-function);
 	}
@@ -194,8 +199,8 @@
 	max-width: 240px;
 	width: 100%;
 	height: 100%;
-	background-color: #4dc274;
-	color: #fff;
+	background-color: var(--primary-green-color);
+	color: var(--primary-white-color);
 
 	transform: translateX(100%);
 	transition: transform 250ms ease-in-out;
