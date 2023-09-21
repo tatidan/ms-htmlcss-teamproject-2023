@@ -1,113 +1,92 @@
-# Vanilla App Template
+<a id="top"></a>
+[__english<span style="color: #38AE5F;">excellence</span>.__](https://tatidan.github.io/ms-htmlcss-teamproject-2023/)
+
+<div style="display: flex; align-items: center; max-width: 100vw; height: 100px; background: #38AE5F;">
+   <a style="margin-left: 24px; font-size: 40px; color: #FFFFFF;" href="https://github.com/tatidan/ms-htmlcss-teamproject-2023">English excellence</a>
+</div>
+
+<ul style="display: flex; margin-top: 36px; list-style: none; font-weight: 700;">
+   <li style="margin-right: 24px;">
+      <a href="#1">Опис</a>
+   </li>
+   <li style="margin-right: 24px;">
+      <a href="#2">Функції</a>
+   </li>
+   <li style="margin-right: 24px;">
+      <a href="#3">Підготовка</a>
+   </li>
+   <li>
+      <a href="#4">Технології</a>
+   </li>
+</ul>
+
+___
+<a id="1"></a>
+
+## Опис Проєкту
+___
+[__English Excellence__](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - це Landing page, що презентує продукт, а саме: реєстрація на курс уроків для вивчення англійської мови.
+
+Завдання [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - запропонувати відвідувачу сторінки приєднатися до групи студентів і разом з командою вчителів відкрити для себе радість вивчення англійської мови!
+
+На сторінц [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/), не переходячі за посиланням по іншим сторінкам, є можливість ознайомитися з [_перевагами команди вчителів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/about.html), загальним [_змістом курсу_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/proposal.html) вивчення мови та самими [_вчителями_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/teachers.html). Наведені фото вчителів та їх експертні навички.
+
+Сторінка передбачає можливість, за допомогою наведеної на сторінці [_форми_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/leave-app.html), зареєструватись та обрати собі за допомогою радіокнопок вчителя.
+
+Для зручності користувачів, в [_шапці_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/header.html) та [_футері_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/footer.html) сторінки, наведені посилання, за якими можна переміщуватися між секціями. Починаючи з другої секції, в правому нижньому куті з’являється кнопка для переходу до шапки сторінки. Також, в шапці та футері сторінки, є посилання на соцмережі у вигляді іконок.
+
+В якості зворотного зв’язку передбачено [_секцію з відгуками студентів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/reviews.html).
+У [_футері_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/footer.html) зазначена контактна інформація (адреса та телефон).
+
+<a id="2"></a>
+
+## Функції
+___
+Верстка адаптивна, окрім мобільних пристроїв. Точки перелому:
+   - mobile: верстка гумова від 320px, стає адаптивною з 375px;
+   - tablet: з 768px;
+   - desktop: з 1280px
+
+[__Проєкт__](https://github.com/tatidan/ms-htmlcss-teamproject-2023) створено з урахуванням наступних вимог:
+1. Верстка валідна та перевірена за допомогою сервісів (https://validator.w3.org/ , https://jigsaw.w3.org/css-validator/).
+2. Забезпечено дотримання семантики відповідно до стандартів HTML5.
+3. Здійснено підключення шрифтів.
+4. Забезпечено оптимізацію розмірів векторної та растрової графіки.
+5. Забезпечено підтримку відображення картинок для retina-екранів.
+6. Оптимізовано завантаження зображень.
+7. Всі svg-іконки підключено через [_sprite_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/img/sprite.svg?short_path=664ce67).
+8. Додано відображення [_фавікон_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/img/icon-favicon.svg) сторінки.
+
+<a id="3"></a>
+
+## Підготовка до роботи
+___
+Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
+[Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
+
+### Iніціювати проект
+Встанови базові залежності проекту в терміналі командою `npm install`. :white_check_mark:
+### Запустити проект
+1. Запусти режим розробки, виконавши в терміналі команду `npm run dev`. :white_check_mark:
+2. Перейдіть у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
+   перезавантажуватись після збереження змін у файли проекту. :white_check_mark:
+
+<a id="4"></a>
+
+## Застосовані технології
+[![Technologies](https://skillicons.dev/icons?i=html,css,js,vite,nodejs)](https://skillicons.dev)
+[![Tools](https://skillicons.dev/icons?i=github,git,vscode,figma,ai)](https://skillicons.dev)
+
+## Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
 додаткових можливостей [звернись до документації](https://vitejs.dev/).
 
-## Створення репозиторію за шаблоном
-
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проекту. Для цього натисни на кнопку `«Use this template»` і
-обери опцію `«Create a new repository»`, як показано на зображенні.
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-На наступному етапі відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся, що репозиторій публічний, після чого натисни
-кнопку `«Create repository from template»`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-Після того, як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
-
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
-
-Проскроливши сторінку до самого кінця, в секції `«Workflow permissions»` обери
-опцію `«Read and write permissions»` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проекту.
-
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Тепер у тебе є особистий репозиторій проекту, зі структурою файлів та папок
-репозиторію-шаблону. Далі працюй з ним, як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби коміти та відправляй
-їх на GitHub.
-
-## Підготовка до роботи
-
-1. Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
-   [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встанови базові залежності проекту в терміналі командою `npm install`.
-3. Запусти режим розробки, виконавши в терміналі команду `npm run dev`.
-4. Перейдіть у браузері за адресою
-   [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
-   перезавантажуватись після збереження змін у файли проекту.
-
 ## Файли і папки
 
-- Файли розмітки компонентів сторінки повинні лежати в папці `src/partials` та
-  імпортуватись до файлу `index.html`. Наприклад, файл з розміткою хедера
-  `header.html` створюємо у папці `partials` та імпортуємо в `index.html`.
-- Файли стилів повинні лежати в папці `src/css` та імпортуватись до HTML-файлів
-  сторінок. Наприклад, для `index.html` файл стилів називається `index.css`.
-- Зображення додавай до папки `src/img`. Збирач оптимізує їх, але тільки при
-  деплої продакшн версії проекту. Все це відбувається у хмарі, щоб не
-  навантажувати твій комп'ютер, тому що на слабких компʼютерах це може зайняти
-  багато часу.
+- Файли розмітки компонентів сторінки в папці `src/partials` та
+  імпортуються до файлу `index.html`.
+- Файли стилів в папці `src/css`.
+- Зображення в `src/img`.
 
-## Деплой
-
-Продакшн версія проекту буде автоматично збиратися та деплоїтись на GitHub
-Pages, у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад,
-після прямого пуша або прийнятого пул-реквесту. Для цього необхідно у файлі
-`package.json` змінити значення прапора `--base=/<REPO>/`, для команди `build`,
-замінивши `<REPO>` на назву свого репозиторію, та відправити зміни на GitHub.
-
-```json
-"build": "vite build --base=/<REPO>/",
-```
-
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) та
-виставити роздачу продакшн версії файлів з папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Статус деплою
-
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
-
-- **Жовтий колір** - виконується збірка та деплой проекту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час лінтингу, збірки чи деплою сталася помилка.
-
-Більш детальну інформацію про статус можна переглянути натиснувши на іконку, і в
-вікні, що випадає, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Жива сторінка
-
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною на вкладці `Settings` > `Pages` в налаштуваннях репозиторію.
-Наприклад, ось посилання на живу версію для цього репозиторію
-
-[https://goitacademy.github.io/vanilla-app-template/](https://goitacademy.github.io/vanilla-app-template/).
-
-Якщо відкриється порожня сторінка, переконайся, що у вкладці `Console` немає
-помилок пов'язаних з неправильними шляхами до CSS та JS файлів проекту
-(**404**). Швидше за все у тебе неправильне значення прапора `--base` для
-команди `build` у файлі `package.json`.
-
-## Як це працює
-
-![How it works](./assets/how-it-works.png)
-
-1. Після кожного пуша у гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) із файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проект ініціалізується та
-   проходить лінтинг та збірку перед деплоєм.
-3. Якщо всі кроки пройшли успішно, зібрана продакшн версія файлів проекту
-   відправляється у гілку `gh-pages`. В іншому випадку, у лозі виконання скрипта
-   буде вказано в чому проблема.
+[Вгору :arrow_double_up:](#top)
