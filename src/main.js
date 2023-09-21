@@ -1,5 +1,5 @@
 import "./js/mobile-menu";
-
+import "./js/smooth-scroll";
 
 // =====================scroll-top-button START======================
 
@@ -29,4 +29,3 @@ function goTop() {
 }
 
 // =====================scroll-top-button END======================
-
