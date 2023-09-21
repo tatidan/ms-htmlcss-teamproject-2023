@@ -1,4 +1,4 @@
-.lessons-header {
+.lessons-title {
 	position: relative;
 	margin-bottom: 16px;
 
@@ -13,7 +13,7 @@
 	letter-spacing: -0.02em;
 }
 
-.lessons-desctription {
+.lessons-description {
 	margin-bottom: 40px;
 
 	text-align: center;
@@ -56,7 +56,7 @@
 /* Desktop */
 @media screen and (min-width: 1280px) {
 	.lessons-list-card {
-		width: calc((100% - 32px) / 3);
+		width: calc((100% - 2 * 32px) / 3);
 	}
 }
 
@@ -89,7 +89,6 @@
 
 	text-align: center;
 
-	font-family: Manrope;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
