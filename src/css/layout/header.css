@@ -225,9 +225,7 @@
 	background-color: transparent;
 	border: transparent;
 }
-.mobile-menu-close-btn:focus {
-	outline: none;
-}
+
 .icon-close-btn,
 .icon-social-mobile {
 	fill: var(--primary-white-color);
@@ -254,9 +252,6 @@
 	line-height: 1.29;
 }
 
-.mobile-link:focus {
-	outline: transparent;
-}
 .mobile-social-list {
 	display: flex;
 	gap: 12px;
@@ -273,8 +268,4 @@
 
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.mobile-social-link:focus {
-	outline: 1px solid var(--primary-white-color);
-	border-radius: 4px;
 }
