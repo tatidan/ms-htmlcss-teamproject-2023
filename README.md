@@ -1,30 +1,15 @@
 <a id="top"></a>
-[__english<span style="color: #38AE5F;">excellence</span>.__](https://tatidan.github.io/ms-htmlcss-teamproject-2023/)
+# [English excellence](https://github.com/tatidan/ms-htmlcss-teamproject-2023)
 
-<div style="display: flex; align-items: center; max-width: 100vw; height: 100px; background: #38AE5F;">
-   <a style="margin-left: 24px; font-size: 40px; color: #FFFFFF;" href="https://github.com/tatidan/ms-htmlcss-teamproject-2023">English excellence</a>
-</div>
+<a href="#1"><img src="https://img.shields.io/badge/Опис Проeкту-512BD4?style=for-the-badge"/></a> <a href="#2"><img src="https://img.shields.io/badge/Функції-ECD53F?style=for-the-badge"/></a> <a href="#2"><img src="https://img.shields.io/badge/Підготовка до роботи-007054?style=for-the-badge"/></a> <a href="#4"><img src="https://img.shields.io/badge/Застосовані технології-A9225C?style=for-the-badge"/></a>
 
-<ul style="display: flex; margin-top: 36px; list-style: none; font-weight: 700;">
-   <li style="margin-right: 24px;">
-      <a href="#1">Опис</a>
-   </li>
-   <li style="margin-right: 24px;">
-      <a href="#2">Функції</a>
-   </li>
-   <li style="margin-right: 24px;">
-      <a href="#3">Підготовка</a>
-   </li>
-   <li>
-      <a href="#4">Технології</a>
-   </li>
-</ul>
-
+## Contributors
+<a href="https://github.com/tatidan"><img src="https://img.shields.io/badge/tatidan-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/OlhaOs"><img src="https://img.shields.io/badge/Olha Os-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/Elenaelle05"><img src="https://img.shields.io/badge/Elenaelle05-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/Aleksey-Dr"><img src="https://img.shields.io/badge/Aleksey-Dr-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/RomanS1994"><img src="https://img.shields.io/badge/Roman S1994-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/iamyurkas"><img src="https://img.shields.io/badge/iamyurkas-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/oleksandr-romashko"><img src="https://img.shields.io/badge/oleksandr-romashko-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a>
 ___
 <a id="1"></a>
 
-## Опис Проєкту
-___
+## <img src="https://img.shields.io/badge/Опис Проeкту-512BD4?style=for-the-badge"/>
+
 [__English Excellence__](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - це Landing page, що презентує продукт, а саме: реєстрація на курс уроків для вивчення англійської мови.
 
 Завдання [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - запропонувати відвідувачу сторінки приєднатися до групи студентів і разом з командою вчителів відкрити для себе радість вивчення англійської мови!
@@ -37,11 +22,10 @@ ___
 
 В якості зворотного зв’язку передбачено [_секцію з відгуками студентів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/reviews.html).
 У [_футері_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/footer.html) зазначена контактна інформація (адреса та телефон).
-
+___
 <a id="2"></a>
 
-## Функції
-___
+## <img src="https://img.shields.io/badge/Функції-ECD53F?style=for-the-badge"/>
 Верстка адаптивна, окрім мобільних пристроїв. Точки перелому:
    - mobile: верстка гумова від 320px, стає адаптивною з 375px;
    - tablet: з 768px;
@@ -58,9 +42,10 @@ ___
 8. Додано відображення [_фавікон_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/img/icon-favicon.svg) сторінки.
 
 <a id="3"></a>
-
-## Підготовка до роботи
 ___
+
+## <img src="https://img.shields.io/badge/Підготовка до роботи-007054?style=for-the-badge"/>
+
 Переконайся, що на комп'ютері встановлено LTS-версію Node.js.
 [Скачай та встанови](https://nodejs.org/en/) її якщо необхідно.
 
@@ -72,8 +57,10 @@ ___
    перезавантажуватись після збереження змін у файли проекту. :white_check_mark:
 
 <a id="4"></a>
+___
 
-## Застосовані технології
+## <img src="https://img.shields.io/badge/Застосовані технології-A9225C?style=for-the-badge"/>
+
 [![Technologies](https://skillicons.dev/icons?i=html,css,js,vite,nodejs)](https://skillicons.dev)
 [![Tools](https://skillicons.dev/icons?i=github,git,vscode,figma,ai)](https://skillicons.dev)
 
