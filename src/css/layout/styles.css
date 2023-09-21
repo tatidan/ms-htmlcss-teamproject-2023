@@ -13,6 +13,7 @@
 @import url("../components/scroll-top.css");
 
 @import url("../utils/variables.css");
+@import url("../utils/animation.css");
 
 @import url("./header.css");
 @import url("./hero.css");
