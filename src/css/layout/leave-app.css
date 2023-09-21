@@ -16,28 +16,14 @@
 	}
 }
 
-@media screen and (max-width: 374px) {
-	.leave-title {
-		margin-bottom: 14px;
-		text-align: center;
-		font-size: 28px;
-		font-weight: 600;
-		line-height: 1.12;
-		letter-spacing: -0.02em;
-		color: var(--primary-black-color);
-	}
-}
-
-@media screen and (min-width: 375px) {
-	.leave-title {
-		margin-bottom: 14px;
-		text-align: center;
-		font-size: 32px;
-		font-weight: 600;
-		line-height: 1.12;
-		letter-spacing: -0.02em;
-		color: var(--primary-black-color);
-	}
+.leave-title {
+	margin-bottom: 14px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 1.12;
+	letter-spacing: -0.02em;
+	color: var(--primary-black-color);
 }
 
 @media screen and (min-width: 768px) {
