@@ -11,7 +11,7 @@
 	border-radius: 16px;
 
 	background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-		url(/img/hero-img/hero-mob.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+		url(./img/hero-img/hero-mob.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 
 	background-repeat: no-repeat;
 	background-position: center;
@@ -21,7 +21,7 @@
 @media only screen and (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
 	.hero-container {
 		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-			url(/img/hero-img/hero-mob@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+			url(./img/hero-img/hero-mob@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 
 		background-repeat: no-repeat;
 		background-position: center;
@@ -33,7 +33,7 @@
 	position: relative;
 
 	color: var(--primary-white-color);
-	font-family: Manrope;
+	font-family: var(--primary-font-family);
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 700;
@@ -41,19 +41,22 @@
 
 	margin-bottom: 40px;
 }
+
 .hero-button {
 	display: inline-block;
 	width: initial;
 	border-style: none;
 }
+
 .asside {
 	color: var(--light-2-green-color);
-	font-family: Manrope;
+	font-family: var(--primary-font-family);
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.05;
 }
+
 .scrolldown-button {
 	display: flex;
 	justify-content: center;
@@ -74,6 +77,7 @@
 
 	transition: background-color 250ms var(--timing-function);
 }
+
 .scrolldown-button:hover,
 .scrolldown-button:focus {
 	background-color: var(--primary-green-color);
@@ -90,15 +94,16 @@
 @media only screen and (min-width: 768px) {
 	.hero-container {
 		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-			url(/img/hero-img/hero-tab.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+			url(./img/hero-img/hero-tab.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 	}
 }
+
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi),
 	(min-width: 768px) and (min-device-pixel-ratio: 2),
 	(min-width: 768px) and (min-resolution: 2dppx) {
 	.hero-container {
 		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-			url(/img/hero-img/hero-tab@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+			url(./img/hero-img/hero-tab@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 
 		background-repeat: no-repeat;
 		background-position: center;
@@ -110,6 +115,7 @@
 	.section {
 		margin-bottom: 100px;
 	}
+
 	.hero-container {
 		position: relative;
 
@@ -117,6 +123,7 @@
 
 		border-radius: 30px;
 	}
+
 	.hero-title {
 		font-size: 60px;
 		font-style: normal;
@@ -131,6 +138,7 @@
 		width: initial;
 		border-style: none;
 	}
+
 	.asside {
 		font-size: 60px;
 		font-style: normal;
@@ -157,27 +165,30 @@
 @media only screen and (min-width: 1280px) {
 	.hero-container {
 		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-			url(/img/hero-img/hero-desc.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+			url(./img/hero-img/hero-desc.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 	}
 }
+
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
 	(min-width: 1280px) and (min-device-pixel-ratio: 2),
 	(min-width: 1280px) and (min-resolution: 2dppx) {
 	.hero-container {
 		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
-			url(/img/hero-img/hero-desc@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+			url(./img/hero-img/hero-desc@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 	}
 }
+
 @media screen and (min-width: 1280px) {
 	.container {
 		width: 1280px;
 		padding-right: 64px;
 		padding-left: 64px;
 	}
+
 	.hero {
 		margin-top: 16px;
 		margin-bottom: 96px;
