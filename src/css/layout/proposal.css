@@ -27,7 +27,7 @@
 
 .first {
     top: 264px;
-    left: 10;
+    left: 10px;
 
     width: 295px;
     height: 408px;
@@ -142,9 +142,8 @@
     }
 
     .proposal-background-card {
-        flex-shrink: 0;
-
         border-radius: 30px;
+        flex-shrink: 0;
     }
 
     .first {
