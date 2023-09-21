@@ -1,6 +1,6 @@
 .about-title {
 	position: relative;
-	color: #121417;
+	color: var(--primary-black-color);
 	text-align: center;
 	font-family: var(--primary-font-family);
 	font-size: 32px;
@@ -60,7 +60,7 @@
 
 	background-color: var(--primary-green-color);
 	border-radius: 30px;
-	background-image: url(../img/ebout-img/memoji.jpg);
+	background-image: url(./img/ebout-img/memoji.svg);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 313px;
@@ -166,6 +166,7 @@
 		width: calc((100% - 32px) / 2);
 	}
 }
+
 @media screen and (min-width: 1280px) {
 	.about-container {
 		padding: 0 64px;
