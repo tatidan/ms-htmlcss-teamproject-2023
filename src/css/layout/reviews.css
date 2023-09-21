@@ -21,6 +21,8 @@
 	height: 12px;
 	border-radius: 8px;
 	background-color: var(--light-2-green-color);
+	-webkit-animation: slide-right 5s linear infinite both;
+	animation: slide-right 5s linear infinite both;
 }
 @media only screen and (min-width: 768px) {
 	.accent::before {

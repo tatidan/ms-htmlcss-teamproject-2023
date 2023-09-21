@@ -19,6 +19,8 @@
 	border-radius: 8px;
 	background-color: var(--light-2-green-color);
 	z-index: -1;
+	-webkit-animation: slide-right 5s linear infinite both;
+	animation: slide-right 5s linear infinite both;
 }
 .team-discription {
 	color: var(--light-black-text-color);
@@ -40,7 +42,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 16px;
-  border-radius: 50%;
+	border-radius: 50%;
 }
 .team-member {
 	font-size: 20px;
