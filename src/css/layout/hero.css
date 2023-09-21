@@ -33,7 +33,7 @@
 	position: relative;
 
 	color: var(--primary-white-color);
-	font-family: Manrope;
+	font-family: var(--primary-font-family);
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 700;
@@ -41,19 +41,22 @@
 
 	margin-bottom: 40px;
 }
+
 .hero-button {
 	display: inline-block;
 	width: initial;
 	border-style: none;
 }
+
 .asside {
 	color: var(--light-2-green-color);
-	font-family: Manrope;
+	font-family: var(--primary-font-family);
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.05;
 }
+
 .scrolldown-button {
 	display: flex;
 	justify-content: center;
@@ -74,6 +77,7 @@
 
 	transition: background-color 250ms var(--timing-function);
 }
+
 .scrolldown-button:hover,
 .scrolldown-button:focus {
 	background-color: var(--primary-green-color);
@@ -93,6 +97,7 @@
 			url(/img/hero-img/hero-tab.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 	}
 }
+
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi),
 	(min-width: 768px) and (min-device-pixel-ratio: 2),
 	(min-width: 768px) and (min-resolution: 2dppx) {
@@ -110,6 +115,7 @@
 	.section {
 		margin-bottom: 100px;
 	}
+
 	.hero-container {
 		position: relative;
 
@@ -117,6 +123,7 @@
 
 		border-radius: 30px;
 	}
+
 	.hero-title {
 		font-size: 60px;
 		font-style: normal;
@@ -131,6 +138,7 @@
 		width: initial;
 		border-style: none;
 	}
+
 	.asside {
 		font-size: 60px;
 		font-style: normal;
@@ -160,6 +168,7 @@
 			url(/img/hero-img/hero-desc.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
 	}
 }
+
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
 	(min-width: 1280px) and (min-device-pixel-ratio: 2),
 	(min-width: 1280px) and (min-resolution: 2dppx) {
@@ -172,12 +181,14 @@
 		background-size: cover;
 	}
 }
+
 @media screen and (min-width: 1280px) {
 	.container {
 		width: 1280px;
 		padding-right: 64px;
 		padding-left: 64px;
 	}
+
 	.hero {
 		margin-top: 16px;
 		margin-bottom: 96px;
