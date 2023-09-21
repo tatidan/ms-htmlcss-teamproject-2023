@@ -17,7 +17,7 @@
 
 	const mobileNavLinks = document.querySelectorAll(".mobile-nav-list .mobile-link");
 	mobileNavLinks.forEach(link => {
-	  link.addEventListener("click", toggleMenu); // Викликаємо функцію toggleMenu при натисканні на посилання
+		link.addEventListener("click", toggleMenu);
 	});
 	window.matchMedia("(min-width: 768px)").addEventListener("change", e => {
 		if (!e.matches) return;
