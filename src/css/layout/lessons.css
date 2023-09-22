@@ -1,3 +1,9 @@
+/* container */
+
+.lessons-container {
+	max-width: 100%;
+}
+
 /* text */
 
 .lessons-title {
@@ -167,6 +173,8 @@
 	font-weight: 700;
 	line-height: 1.71;
 	color: var(--primary-white-color);
+
+	transition: background-color 250ms var(--timing-function);
 }
 
 @media screen and (min-width: 768px) {
@@ -178,6 +186,20 @@
 	}
 }
 
+@media only screen and (min-width: 1280px) {
+	.lessons-list-card:not(:nth-child(2)) .lesson-card-link:hover,
+	.lessons-list-card:not(:nth-child(2)) .lesson-card-link:focus {
+		background-color: var(--action-green-color);
+	}
+
+	.lessons-list-card:nth-child(2) .lesson-card-link:hover,
+	.lessons-list-card:nth-child(2) .lesson-card-link:focus {
+		border: none;
+		background-color: var(--primary-white-color);
+		color: var(--primary-green-color);
+	}
+}
+
 .lessons-list-card:nth-child(2) {
 	border: none;
 	background-color: var(--primary-green-color);
@@ -185,9 +207,21 @@
 }
 
 .lessons-list-card:nth-child(2) .lesson-card-details {
-	color: rgba(255, 255, 255, 0.7);
+	color: var(--light-lessons-color);
 }
 
 .lessons-list-card:nth-child(2) .lesson-card-link {
-	border: 1px solid rgba(255, 255, 255, 0.4);
+	border: 1px solid var(--primary-white-color);
+}
+
+@media not (hover: hover) {
+	.lessons-list-card:not(:nth-child(2)) .lesson-card-link:active {
+		background-color: var(--action-green-color);
+	}
+
+	.lessons-list-card:nth-child(2) .lesson-card-link:active {
+		border: none;
+		background-color: var(--primary-white-color);
+		color: var(--primary-green-color);
+	}
 }
