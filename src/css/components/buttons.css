@@ -17,6 +17,7 @@
 	line-height: 1.7;
 
 	transition: background-color 250ms var(--timing-function);
+	z-index: 9999;
 }
 
 .button-border {
@@ -41,6 +42,9 @@
 
 	background-color: var(--primary-white-color);
 	color: var(--primary-green-color);
+
+	transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 @media screen and (max-width: 374px) {
@@ -66,13 +70,13 @@
 .button-border:focus,
 .button:focus {
 	background-color: var(--action-green-color);
-	transition: background-color 250ms var(--timing-function),
-    color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse:hover,
 .button-inverse:focus {
 	background-color: var(--light-gray-color);
+	color: var(--action-green-color);
 	transition: background-color 250ms var(--timing-function),
     color 250ms var(--timing-function);
 }
@@ -88,7 +92,6 @@
 @media screen and (max-width: 767px) {
 	.proposal-button {
 		max-width: 255px;
-		padding: 14px 38px;
 	}
 }
 
