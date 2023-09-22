@@ -162,44 +162,15 @@
 	}
 }
 
-.lesson-card-link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height: 52px;
-
-	border-radius: 12px;
-	background: var(--primary-green-color);
-
-	text-align: center;
-
-	font-size: 14px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 1.71;
-	color: var(--primary-white-color);
-
-	transition: background-color 250ms var(--timing-function);
-}
-
-@media screen and (min-width: 768px) {
-	.lesson-card-link {
-		height: 60px;
-
-		font-size: 18px;
-		line-height: 1.56;
-	}
-}
-
 @media only screen and (min-width: 1280px) {
-	.lessons-list-card:not(:nth-child(2)) .lesson-card-link:hover,
-	.lessons-list-card:not(:nth-child(2)) .lesson-card-link:focus {
+	.lessons-list-card:not(:nth-child(2)) .lesson-button:hover,
+	.lessons-list-card:not(:nth-child(2)) .lesson-button:focus {
 		background-color: var(--action-green-color);
+		color: var(--primary-white-color);
 	}
 
-	.lessons-list-card:nth-child(2) .lesson-card-link:hover,
-	.lessons-list-card:nth-child(2) .lesson-card-link:focus {
+	.lessons-list-card:nth-child(2) .lesson-button:hover,
+	.lessons-list-card:nth-child(2) .lesson-button:focus {
 		border: none;
 		background-color: var(--primary-white-color);
 		color: var(--primary-green-color);

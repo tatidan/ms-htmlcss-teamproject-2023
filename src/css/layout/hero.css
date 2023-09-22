@@ -51,34 +51,6 @@
 	line-height: 1.05;
 }
 
-.scrolldown-button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-	position: absolute;
-
-	right: 14px;
-	bottom: 14px;
-
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	border: none;
-
-	background-color: var(--primary-white-color);
-	fill: var(--primary-green-color);
-
-	transition: background-color 250ms var(--timing-function);
-}
-
-.scrolldown-button:hover,
-.scrolldown-button:focus {
-	background-color: var(--primary-green-color);
-	fill: var(--primary-white-color);
-
-	transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
-}
 /**
   |============================
   | Tablet
@@ -106,10 +78,6 @@
 }
 
 @media screen and (min-width: 768px) {
-	.section {
-		margin-bottom: 100px;
-	}
-
 	.hero-container {
 		position: relative;
 
@@ -128,26 +96,11 @@
 		width: 488px;
 	}
 
-	.hero-button {
-		width: initial;
-		border-style: none;
-	}
-
 	.asside {
 		font-size: 60px;
 		font-style: normal;
 		font-weight: 700;
 		line-height: 1.15;
-	}
-
-	.scrolldown-button {
-		right: 32px;
-		bottom: 32px;
-
-		width: 48px;
-		height: 48px;
-		border-radius: 50%;
-		border: none;
 	}
 }
 
@@ -177,12 +130,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-	.container {
-		width: 1280px;
-		padding-right: 64px;
-		padding-left: 64px;
-	}
-
 	.hero {
 		margin-top: 16px;
 		margin-bottom: 96px;

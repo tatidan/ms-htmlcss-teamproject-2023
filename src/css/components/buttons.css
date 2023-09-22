@@ -1,21 +1,20 @@
 /* Mobile-first */
 .button {
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    width: 295px;
-    height: 52px;
-
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 52px;
+  
 	border-radius: 12px;
 	background-color: var(--primary-green-color);
-
+	color: var(--primary-white-color);
 	cursor: pointer;
 
 	font-family: var(--primary-font-family);
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
-	color: var(--primary-white-color);
 
 	transition: background-color 250ms var(--timing-function);
 }
@@ -29,17 +28,6 @@
 
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 0.4);
-	background-color: var(--primary-green-color);
-
-	cursor: pointer;
-
-	font-family: var(--primary-font-family);
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 1.7;
-	color: var(--primary-white-color);
-
-	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse {
@@ -50,53 +38,22 @@
 	height: 52px;
 
 	border-radius: 12px;
+
 	background-color: var(--primary-white-color);
-
-	cursor: pointer;
-
-	font-family: var(--primary-font-family);
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 1.7;
 	color: var(--primary-green-color);
-
-	transition: background-color 250ms var(--timing-function);
 }
 
 @media screen and (max-width: 374px) {
 	.button {
-		padding: 14px 30px;
-		max-width: 240px;
+		width: 218px;
 	}
 }
 
 /* Desktop/tablet */
 @media screen and (min-width: 768px) {
 	.button {
-		width: 306px;
+		width: 308px;
 		height: 60px;
-
-		border-radius: 12px;
-
-		font-size: 18px;
-		line-height: 1.56;
-	}
-
-	.button-border {
-		width: 309px;
-		height: 60px;
-
-		cursor: pointer;
-
-		font-size: 18px;
-		line-height: 1.56;
-	}
-
-	.button-inverse {
-		width: 309px;
-		height: 60px;
-
-		cursor: pointer;
 
 		font-size: 18px;
 		line-height: 1.56;
@@ -109,15 +66,15 @@
 .button-border:focus,
 .button:focus {
 	background-color: var(--action-green-color);
-
-	transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 .button-inverse:hover,
 .button-inverse:focus {
 	background-color: var(--light-gray-color);
-
-	transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 @media screen and (max-width: 374px) {
@@ -132,5 +89,57 @@
 	.proposal-button {
 		max-width: 255px;
 		padding: 14px 38px;
+	}
+}
+
+.lesson-button {
+	width: 100%;
+	padding: 14px 30px;
+}
+
+.lesson-button-inverse {
+	border: 1px solid var(--primary-green-color);
+}
+
+/* HERO scroll-down-btn */
+
+.scrolldown-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+
+	right: 14px;
+	bottom: 14px;
+
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: none;
+
+	background-color: var(--primary-white-color);
+	fill: var(--primary-green-color);
+
+	transition: background-color 250ms var(--timing-function);
+}
+
+.scrolldown-button:hover,
+.scrolldown-button:focus {
+	background-color: var(--primary-green-color);
+	fill: var(--primary-white-color);
+
+	transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+	.scrolldown-button {
+		right: 32px;
+		bottom: 32px;
+
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		border: none;
 	}
 }
