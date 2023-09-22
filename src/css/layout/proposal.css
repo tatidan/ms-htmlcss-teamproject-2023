@@ -7,7 +7,7 @@
     border-radius: 16px;
     background: linear-gradient(85deg, #4DC274 2.25%, #BEE8CC 131.25%);
 
-    z-index: -3;
+    z-index: 0;
 }
 
 .proposal-call {
