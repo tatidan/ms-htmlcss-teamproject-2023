@@ -85,6 +85,10 @@
 	color: var(--primary-white-color);
 	font-style: normal;
 }
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+	text-decoration: underline;
+}
 
 .footer-nav {
 	margin-bottom: 40px;
@@ -232,4 +236,8 @@
 }
 #footer {
 	margin-bottom: 0;
+}
+.footer-link:hover,
+.footer-link:focus {
+	text-decoration: underline;
 }
