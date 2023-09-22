@@ -1,7 +1,7 @@
 <a id="top"></a>
 # [English excellence](https://github.com/tatidan/ms-htmlcss-teamproject-2023)
 
-<a href="#1"><img src="https://img.shields.io/badge/Опис Проeкту-512BD4?style=for-the-badge"/></a> <a href="#2"><img src="https://img.shields.io/badge/Функції-ECD53F?style=for-the-badge"/></a> <a href="#2"><img src="https://img.shields.io/badge/Підготовка до роботи-007054?style=for-the-badge"/></a> <a href="#4"><img src="https://img.shields.io/badge/Застосовані технології-A9225C?style=for-the-badge"/></a>
+<a href="#1"><img src="https://img.shields.io/badge/Опис Проeкту-512BD4?style=for-the-badge"/></a> <a href="#2"><img src="https://img.shields.io/badge/Функції-ECD53F?style=for-the-badge"/></a> <a href="#3"><img src="https://img.shields.io/badge/Підготовка до роботи-007054?style=for-the-badge"/></a> <a href="#4"><img src="https://img.shields.io/badge/Застосовані технології-A9225C?style=for-the-badge"/></a>
 
 ## Contributors
 <a href="https://github.com/tatidan"><img src="https://img.shields.io/badge/tatidan-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/OlhaOs"><img src="https://img.shields.io/badge/Olha Os-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/Elenaelle05"><img src="https://img.shields.io/badge/Elenaelle05-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/Aleksey-Dr"><img src="https://img.shields.io/badge/Aleksey-Dr-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/RomanS1994"><img src="https://img.shields.io/badge/Roman S1994-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/iamyurkas"><img src="https://img.shields.io/badge/iamyurkas-0099E5?style=for-the-badge&logo=github&logoColor=212121"/></a> <a href="https://github.com/oleksandr-romashko"><img src="https://img.shields.io/badge/oleksandr-romashko-40AEF0?style=for-the-badge&logo=github&logoColor=212121"/></a>
@@ -14,7 +14,7 @@ ___
 
 Завдання [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - запропонувати відвідувачу сторінки приєднатися до групи студентів і разом з командою вчителів відкрити для себе радість вивчення англійської мови!
 
-На сторінц [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/), не переходячі за посиланням по іншим сторінкам, є можливість ознайомитися з [_перевагами команди вчителів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/about.html), загальним [_змістом курсу_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/proposal.html) вивчення мови та самими [_вчителями_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/teachers.html). Наведені фото вчителів та їх експертні навички.
+На сторінці [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/), не переходячі за посиланням по іншим сторінкам, є можливість ознайомитися з [_перевагами команди вчителів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/about.html), загальним [_змістом курсу_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/proposal.html) вивчення мови та самими [_вчителями_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/teachers.html). Наведені фото вчителів та їх експертні навички.
 
 Сторінка передбачає можливість, за допомогою наведеної на сторінці [_форми_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/leave-app.html), зареєструватись та обрати собі за допомогою радіокнопок вчителя.
 
@@ -53,7 +53,7 @@ ___
 Встанови базові залежності проекту в терміналі командою `npm install`. :white_check_mark:
 ### Запустити проект
 1. Запусти режим розробки, виконавши в терміналі команду `npm run dev`. :white_check_mark:
-2. Перейдіть у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
+2. Перейди у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
    перезавантажуватись після збереження змін у файли проекту. :white_check_mark:
 
 <a id="4"></a>
