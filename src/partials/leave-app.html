@@ -32,6 +32,7 @@
             type="email"
             name="user-email"
             placeholder="Email"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
             required
           />
           <input
@@ -39,6 +40,7 @@
             type="tel"
             name="user-phone"
             placeholder="Phone"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
           />
           <textarea
             class="leave-form-input teaxtarea-input"
