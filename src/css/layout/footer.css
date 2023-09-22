@@ -102,38 +102,6 @@
 	}
 }
 
-.footer-nav-list {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-}
-
-.footer-nav-item {
-	position: relative;
-}
-
-.footer-nav-link {
-	font-weight: 600;
-	line-height: 1.29;
-	color: var(--primary-white-color);
-}
-
-.footer-nav-link::after {
-	content: "";
-	position: absolute;
-	width: 37px;
-	height: 2px;
-	left: 0;
-	bottom: -4px;
-	background-color: var(--primary-green-color);
-	opacity: 0;
-	transition: opacity 250ms var(--timing-function);
-}
-
-.footer-nav-link:hover::after {
-	opacity: 1;
-}
-
 .footer-icon-wrapper {
 	position: relative;
 	margin-bottom: 40px;

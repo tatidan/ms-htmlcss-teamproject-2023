@@ -1,11 +1,11 @@
 /* Mobile-first */
 .button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 295px;
-	height: 52px;
-	padding: 14px 50px;
+  display: flex;;
+  justify-content: center;
+  align-items: center;
+  width: 295px;
+  height: 52px;
+  
 	border-radius: 12px;
 	background-color: var(--primary-green-color);
 	color: var(--primary-white-color);
@@ -20,13 +20,25 @@
 }
 
 .button-border {
-	padding: 14px 76px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 295px;
+	height: 52px;
+
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .button-inverse {
-	padding: 14px 76px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 295px;
+	height: 52px;
+
+	border-radius: 12px;
+
 	background-color: var(--primary-white-color);
 	color: var(--primary-green-color);
 }
@@ -34,26 +46,17 @@
 @media screen and (max-width: 374px) {
 	.button {
 		width: 218px;
-		padding: 14px 4px;
 	}
 }
 
 /* Desktop/tablet */
 @media screen and (min-width: 768px) {
 	.button {
-		width: 306px;
+		width: 308px;
 		height: 60px;
-		padding: 16px 64px;
+
 		font-size: 18px;
 		line-height: 1.56;
-	}
-
-	.button-border {
-		width: 309px;
-	}
-
-	.button-inverse {
-		width: 309px;
 	}
 }
 
@@ -63,18 +66,22 @@
 .button-border:focus,
 .button:focus {
 	background-color: var(--action-green-color);
-	transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 .button-inverse:hover,
 .button-inverse:focus {
 	background-color: var(--light-gray-color);
-	transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
 }
 
 @media screen and (max-width: 374px) {
 	.proposal-button {
-		padding: 14px 18px;
+		width: 200px;
+
+		font-size: 12px;
 	}
 }
 
