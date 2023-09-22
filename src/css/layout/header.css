@@ -9,6 +9,7 @@
 @media only screen and (min-width: 1280px) {
 	.header-container {
 		display: flex;
+
 		align-items: center;
 		padding-bottom: 16px;
 
@@ -72,12 +73,15 @@
 	display: flex;
 	align-items: center;
 }
-
+@media only screen and (min-width: 1280px) {
+	.header-nav {
+		margin-right: auto;
+	}
+}
 .logo {
 	display: inline-flex;
 	padding-top: 21px;
 	padding-bottom: 21px;
-	margin-right: 137px;
 
 	font-size: 20px;
 	font-weight: 700;
@@ -86,8 +90,15 @@
 .logo:focus {
 	outline: none;
 }
+
 .logo-accent {
 	color: var(--primary-green-color);
+}
+
+@media only screen and (min-width: 1280px) {
+	.logo {
+		margin-right: 137px;
+	}
 }
 .icon-humburger {
 	stroke: var(--primary-black-color);
@@ -103,7 +114,6 @@
 	.nav-list {
 		display: flex;
 		gap: 20px;
-		margin-right: 137px;
 
 		font-size: 14px;
 		font-weight: 600;
@@ -215,9 +225,7 @@
 	background-color: transparent;
 	border: transparent;
 }
-.mobile-menu-close-btn:focus {
-	outline: none;
-}
+
 .icon-close-btn,
 .icon-social-mobile {
 	fill: var(--primary-white-color);
@@ -244,9 +252,6 @@
 	line-height: 1.29;
 }
 
-.mobile-link:focus {
-	outline: transparent;
-}
 .mobile-social-list {
 	display: flex;
 	gap: 12px;
@@ -263,8 +268,4 @@
 
 	border-radius: 10px;
 	border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.mobile-social-link:focus {
-	outline: 1px solid var(--primary-white-color);
-	border-radius: 4px;
 }
