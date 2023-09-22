@@ -14,7 +14,7 @@ ___
 
 Завдання [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/) - запропонувати відвідувачу сторінки приєднатися до групи студентів і разом з командою вчителів відкрити для себе радість вивчення англійської мови!
 
-На сторінц [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/), не переходячі за посиланням по іншим сторінкам, є можливість ознайомитися з [_перевагами команди вчителів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/about.html), загальним [_змістом курсу_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/proposal.html) вивчення мови та самими [_вчителями_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/teachers.html). Наведені фото вчителів та їх експертні навички.
+На сторінці [_English Excellence_](https://tatidan.github.io/ms-htmlcss-teamproject-2023/), не переходячі за посиланням по іншим сторінкам, є можливість ознайомитися з [_перевагами команди вчителів_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/about.html), загальним [_змістом курсу_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/proposal.html) вивчення мови та самими [_вчителями_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/teachers.html). Наведені фото вчителів та їх експертні навички.
 
 Сторінка передбачає можливість, за допомогою наведеної на сторінці [_форми_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/partials/leave-app.html), зареєструватись та обрати собі за допомогою радіокнопок вчителя.
 
@@ -53,7 +53,7 @@ ___
 Встанови базові залежності проекту в терміналі командою `npm install`. :white_check_mark:
 ### Запустити проект
 1. Запусти режим розробки, виконавши в терміналі команду `npm run dev`. :white_check_mark:
-2. Перейдіть у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
+2. Перейди у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
    перезавантажуватись після збереження змін у файли проекту. :white_check_mark:
 
 <a id="4"></a>
