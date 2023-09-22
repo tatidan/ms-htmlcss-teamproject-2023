@@ -1,11 +1,11 @@
 .review-title {
-	width: 335px;
+	max-width: 335px;
 	margin-bottom: 16px;
 
 	text-align: center;
 	font-size: 32px;
 	line-height: 1.13;
-	letter-spacing: -0.64px;
+	letter-spacing: -0.02em;
 }
 .accent {
 	position: relative;
@@ -21,6 +21,8 @@
 	height: 12px;
 	border-radius: 8px;
 	background-color: var(--light-2-green-color);
+	-webkit-animation: slide-right 5s linear infinite both;
+	animation: slide-right 5s linear infinite both;
 }
 @media only screen and (min-width: 768px) {
 	.accent::before {
@@ -29,11 +31,11 @@
 }
 @media only screen and (min-width: 768px) {
 	.review-title {
-		width: 100%;
+		max-width: 100%;
 
 		font-size: 40px;
-		line-height: 1.2em;
-		letter-spacing: -0.8px;
+		line-height: 1.2;
+		letter-spacing: -0.02em;
 	}
 }
 .review-text {
@@ -42,7 +44,7 @@
 	text-align: center;
 
 	font-size: 14px;
-	line-height: 1.71em;
+	line-height: 1.71;
 }
 @media only screen and (min-width: 768px) {
 	.review-text {
@@ -52,7 +54,7 @@
 		margin-bottom: 64px;
 
 		font-size: 18px;
-		line-height: 1.67em;
+		line-height: 1.67;
 	}
 }
 .review-img {
@@ -120,14 +122,14 @@
 	margin-bottom: 2px;
 
 	font-size: 20px;
-	line-height: 1.2em;
-	letter-spacing: -0.4px;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
 }
 @media only screen and (min-width: 768px) {
 	.review-user-name {
 		font-size: 20px;
-		line-height: 1.2em;
-		letter-spacing: -0.4px;
+		line-height: 1.2;
+		letter-spacing: -0.02em;
 	}
 }
 .review-user-position {
@@ -137,17 +139,17 @@
 }
 
 .review-user-text {
-	width: 267px;
+	max-width: 267px;
 	margin-left: auto;
 	margin-right: auto;
 
 	color: var(--light-black-text-color);
 	font-size: 14px;
-	line-height: 1.71em;
+	line-height: 1.71;
 }
 @media only screen and (min-width: 768px) {
 	.review-user-text {
 		font-size: 16px;
-		line-height: 1.5em;
+		line-height: 1.5;
 	}
 }

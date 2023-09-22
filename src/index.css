@@ -1,0 +1,20 @@
+@import url("./css/base/reset.css");
+@import url("./css/base/common.css");
+@import url("./css/base/container.css");
+
+@import url("./css/components/buttons.css");
+@import url("./css/components/nav-list.css");
+@import url("./css/components/scroll-top.css");
+
+@import url("./css/utils/variables.css");
+@import url("./css/utils/animation.css");
+
+@import url("./css/layout/header.css");
+@import url("./css/layout/hero.css");
+@import url("./css/layout/about.css");
+@import url("./css/layout/lessons.css");
+@import url("./css/layout/proposal.css");
+@import url("./css/layout/teachers.css");
+@import url("./css/layout/leave-app.css");
+@import url("./css/layout/reviews.css");
+@import url("./css/layout/footer.css");
