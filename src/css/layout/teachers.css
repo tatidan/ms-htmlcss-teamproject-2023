@@ -22,7 +22,7 @@
 	-webkit-animation: slide-right 5s linear infinite both;
 	animation: slide-right 5s linear infinite both;
 }
-.team-discription {
+.team-description {
 	color: var(--light-black-text-color);
 	text-align: center;
 	font-size: 14px;
@@ -72,7 +72,7 @@
 		line-height: 1.2;
 		letter-spacing: -0.8px;
 	}
-	.team-discription {
+	.team-description {
 		font-size: 18px;
 		line-height: 1.6;
 		margin-bottom: 64px;
@@ -84,7 +84,7 @@
 	}
 }
 @media screen and (min-width: 1280px) {
-	.team-discription {
+	.team-description {
 		width: 709px;
 		margin-right: auto;
 		margin-left: auto;
