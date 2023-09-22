@@ -53,7 +53,7 @@
     position: absolute;
     top: 265px;
 
-    width: 294px;
+    max-width: 294px;
     height: 408px;
 
     padding: 40px 20px;
