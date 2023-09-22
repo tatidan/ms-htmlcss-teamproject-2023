@@ -1,10 +1,21 @@
 /* Mobile */
 .container {
-    width: 375px;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 374px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .container {
+        width: 375px;
+    }
 }
 
 /* Tablet */
