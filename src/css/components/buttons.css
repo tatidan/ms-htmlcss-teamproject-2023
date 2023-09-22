@@ -6,64 +6,29 @@
 	width: 295px;
 	height: 52px;
 	padding: 14px 50px;
-
 	border-radius: 12px;
 	background-color: var(--primary-green-color);
-
+	color: var(--primary-white-color);
 	cursor: pointer;
 
 	font-family: var(--primary-font-family);
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 1.7;
-	color: var(--primary-white-color);
 
 	transition: background-color 250ms var(--timing-function);
 }
 
 .button-border {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 295px;
-	height: 52px;
 	padding: 14px 76px;
-
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 0.4);
-	background-color: var(--primary-green-color);
-
-	cursor: pointer;
-
-	font-family: var(--primary-font-family);
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 1.7;
-	color: var(--primary-white-color);
-
-	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 295px;
-	height: 52px;
 	padding: 14px 76px;
-
-	border-radius: 12px;
 	background-color: var(--primary-white-color);
-
-	cursor: pointer;
-
-	font-family: var(--primary-font-family);
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 1.7;
 	color: var(--primary-green-color);
-
-	transition: background-color 250ms var(--timing-function);
 }
 
 @media screen and (max-width: 374px) {
@@ -79,33 +44,16 @@
 		width: 306px;
 		height: 60px;
 		padding: 16px 64px;
-
-		border-radius: 12px;
-
 		font-size: 18px;
 		line-height: 1.56;
 	}
 
 	.button-border {
 		width: 309px;
-		height: 60px;
-		padding: 16px 64px;
-
-		cursor: pointer;
-
-		font-size: 18px;
-		line-height: 1.56;
 	}
 
 	.button-inverse {
 		width: 309px;
-		height: 60px;
-		padding: 16px 64px;
-
-		cursor: pointer;
-
-		font-size: 18px;
-		line-height: 1.56;
 	}
 }
 
@@ -115,14 +63,12 @@
 .button-border:focus,
 .button:focus {
 	background-color: var(--action-green-color);
-
 	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse:hover,
 .button-inverse:focus {
 	background-color: var(--light-gray-color);
-
 	transition: background-color 250ms var(--timing-function);
 }
 
