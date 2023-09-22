@@ -5,7 +5,6 @@
     align-items: center;
     width: 295px;
     height: 52px;
-    padding: 14px 50px;
 
 	border-radius: 12px;
 	background-color: var(--primary-green-color);
@@ -27,7 +26,6 @@
 	align-items: center;
 	width: 295px;
 	height: 52px;
-	padding: 14px 76px;
 
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 0.4);
@@ -50,7 +48,6 @@
 	align-items: center;
 	width: 295px;
 	height: 52px;
-	padding: 14px 76px;
 
 	border-radius: 12px;
 	background-color: var(--primary-white-color);
@@ -69,6 +66,7 @@
 @media screen and (max-width: 374px) {
 	.button {
 		padding: 14px 30px;
+		max-width: 240px;
 	}
 }
 
@@ -77,7 +75,6 @@
 	.button {
 		width: 306px;
 		height: 60px;
-		padding: 16px 64px;
 
 		border-radius: 12px;
 
@@ -88,7 +85,6 @@
 	.button-border {
 		width: 309px;
 		height: 60px;
-		padding: 16px 64px;
 
 		cursor: pointer;
 
@@ -99,7 +95,6 @@
 	.button-inverse {
 		width: 309px;
 		height: 60px;
-		padding: 16px 64px;
 
 		cursor: pointer;
 
@@ -127,7 +122,9 @@
 
 @media screen and (max-width: 374px) {
 	.proposal-button {
-		padding: 14px 18px;
+		width: 200px;
+
+		font-size: 12px;
 	}
 }
 
