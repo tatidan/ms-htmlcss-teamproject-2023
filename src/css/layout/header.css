@@ -9,39 +9,12 @@
 @media only screen and (min-width: 1280px) {
 	.header-container {
 		display: flex;
-
 		align-items: center;
 		padding-bottom: 16px;
-
 		width: 1152px;
 	}
-	.nav-link {
-		position: relative;
-		padding-top: 21px;
-		padding-bottom: 21px;
-	}
-	.nav-link:focus {
-		outline: none;
-	}
-	.nav-link::after {
-		position: absolute;
-		bottom: -4px;
-		left: 0;
-		content: "";
-
-		display: block;
-		width: 37px;
-		height: 2px;
-
-		background-color: var(--primary-green-color);
-		opacity: 0;
-		transition: opacity 250ms var(--timing-function);
-	}
-	.nav-link:hover::after,
-	.nav-link:focus::after {
-		opacity: 1;
-	}
 }
+
 .mobile-menu-btn {
 	min-width: 32px;
 	min-height: 32px;
@@ -49,26 +22,22 @@
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
-
 	padding: 0;
 	border: transparent;
 	background-color: transparent;
-}
-@media only screen and (min-width: 1280px) {
-	.mobile-menu-btn {
-		display: none;
-	}
 }
 @media only screen and (min-width: 768px) {
 	.mobile-menu-btn {
 		width: 40px;
 		height: 28px;
 	}
-	.icon-humburger {
-		min-width: 40px;
-		min-height: 28px;
+}
+@media only screen and (min-width: 1280px) {
+	.mobile-menu-btn {
+		display: none;
 	}
 }
+
 .header-nav {
 	display: flex;
 	align-items: center;
@@ -78,6 +47,7 @@
 		margin-right: auto;
 	}
 }
+
 .logo {
 	display: inline-flex;
 	padding-top: 21px;
@@ -105,26 +75,21 @@
 		margin-right: 137px;
 	}
 }
+
 .icon-humburger {
 	stroke: var(--primary-black-color);
 }
-
-.nav-list {
-	display: none;
+@media only screen and (min-width: 768px) {
+	.icon-humburger {
+		min-width: 40px;
+		min-height: 28px;
+	}
 }
+
 .social-header-list {
 	display: none;
 }
 @media only screen and (min-width: 1280px) {
-	.nav-list {
-		display: flex;
-		gap: 20px;
-
-		font-size: 14px;
-		font-weight: 600;
-		line-height: 1.29;
-	}
-
 	.social-header-list {
 		display: flex;
 		gap: 12px;
@@ -134,10 +99,8 @@
 		width: 44px;
 		height: 44px;
 		padding: 8px;
-
 		border-radius: 10px;
 		border: 1px solid var(--light-black-color);
-
 		transition: border 250ms var(--timing-function), outline 250ms var(--timing-function);
 	}
 	.social-link:focus {
@@ -145,7 +108,6 @@
 	}
 	.icon-social {
 		fill: inherit;
-
 		transition: fill 250ms var(--timing-function);
 	}
 	.social-link:hover,
