@@ -40,9 +40,8 @@ ___
 6. Оптимізовано завантаження зображень.
 7. Всі svg-іконки підключено через [_sprite_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/img/sprite.svg?short_path=664ce67).
 8. Додано відображення [_фавікон_](https://github.com/tatidan/ms-htmlcss-teamproject-2023/blob/main/src/img/icon-favicon.svg) сторінки.
-
-<a id="3"></a>
 ___
+<a id="3"></a>
 
 ## <img src="https://img.shields.io/badge/Підготовка до роботи-007054?style=for-the-badge"/>
 
@@ -55,9 +54,8 @@ ___
 1. Запусти режим розробки, виконавши в терміналі команду `npm run dev`. :white_check_mark:
 2. Перейди у браузері за адресою [http://localhost:5173](http://localhost:5173). Ця сторінка буде автоматично
    перезавантажуватись після збереження змін у файли проекту. :white_check_mark:
-
-<a id="4"></a>
 ___
+<a id="4"></a>
 
 ## <img src="https://img.shields.io/badge/Застосовані технології-A9225C?style=for-the-badge"/>
 
