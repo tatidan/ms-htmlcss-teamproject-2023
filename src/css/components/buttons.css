@@ -1,11 +1,11 @@
 /* Mobile-first */
 .button {
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    width: 295px;
-    height: 52px;
-    padding: 14px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 295px;
+	height: 52px;
+	padding: 14px 50px;
 
 	border-radius: 12px;
 	background-color: var(--primary-green-color);
@@ -68,7 +68,8 @@
 
 @media screen and (max-width: 374px) {
 	.button {
-		padding: 14px 30px;
+		width: 218px;
+		padding: 14px 4px;
 	}
 }
 
@@ -135,5 +136,57 @@
 	.proposal-button {
 		max-width: 255px;
 		padding: 14px 38px;
+	}
+}
+
+.lesson-button {
+	width: 100%;
+	padding: 14px 30px;
+}
+
+.lesson-button-inverse {
+	border: 1px solid var(--primary-green-color);
+}
+
+/* HERO scroll-down-btn */
+
+.scrolldown-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+
+	right: 14px;
+	bottom: 14px;
+
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: none;
+
+	background-color: var(--primary-white-color);
+	fill: var(--primary-green-color);
+
+	transition: background-color 250ms var(--timing-function);
+}
+
+.scrolldown-button:hover,
+.scrolldown-button:focus {
+	background-color: var(--primary-green-color);
+	fill: var(--primary-white-color);
+
+	transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+	.scrolldown-button {
+		right: 32px;
+		bottom: 32px;
+
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		border: none;
 	}
 }
