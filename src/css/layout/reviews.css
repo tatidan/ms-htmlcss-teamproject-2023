@@ -1,5 +1,5 @@
 .review-title {
-	width: 335px;
+	max-width: 335px;
 	margin-bottom: 16px;
 
 	text-align: center;
@@ -139,7 +139,7 @@
 }
 
 .review-user-text {
-	width: 267px;
+	max-width: 267px;
 	margin-left: auto;
 	margin-right: auto;
 

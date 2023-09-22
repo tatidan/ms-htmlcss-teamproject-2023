@@ -42,12 +42,6 @@
 	margin-bottom: 40px;
 }
 
-.hero-button {
-	display: inline-block;
-	width: initial;
-	border-style: none;
-}
-
 .asside {
 	color: var(--light-2-green-color);
 	font-family: var(--primary-font-family);

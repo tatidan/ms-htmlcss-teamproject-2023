@@ -7,99 +7,105 @@
     height: 52px;
     padding: 14px 50px;
 
-    border-radius: 12px;
-    background-color: var(--primary-green-color);
+	border-radius: 12px;
+	background-color: var(--primary-green-color);
 
-    cursor: pointer;
+	cursor: pointer;
 
-    font-family: var(--primary-font-family);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.7;
-    color: var(--primary-white-color);
+	font-family: var(--primary-font-family);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7;
+	color: var(--primary-white-color);
 
-    transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
 }
 
 .button-border {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 295px;
-    height: 52px;
-    padding: 14px 76px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 295px;
+	height: 52px;
+	padding: 14px 76px;
 
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.40);
-    background-color: var(--primary-green-color);
+	border-radius: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.4);
+	background-color: var(--primary-green-color);
 
-    cursor: pointer;
+	cursor: pointer;
 
-    font-family: var(--primary-font-family);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.7;
-    color: var(--primary-white-color);
+	font-family: var(--primary-font-family);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7;
+	color: var(--primary-white-color);
 
-    transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 295px;
-    height: 52px;
-    padding: 14px 76px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 295px;
+	height: 52px;
+	padding: 14px 76px;
 
-    border-radius: 12px;
-    background-color: var(--primary-white-color);
+	border-radius: 12px;
+	background-color: var(--primary-white-color);
 
-    cursor: pointer;
+	cursor: pointer;
 
-    font-family: var(--primary-font-family);
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.7;
-    color: var(--primary-green-color);
+	font-family: var(--primary-font-family);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7;
+	color: var(--primary-green-color);
 
-    transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
+}
+
+@media screen and (max-width: 374px) {
+	.button {
+		padding: 14px 30px;
+	}
 }
 
 /* Desktop/tablet */
 @media screen and (min-width: 768px) {
-    .button {
-        width: 306px;
-        height: 60px;
-        padding: 16px 64px;
+	.button {
+		width: 306px;
+		height: 60px;
+		padding: 16px 64px;
 
-        border-radius: 12px;
+		border-radius: 12px;
 
-        font-size: 18px;
-        line-height: 1.56;
-    }
+		font-size: 18px;
+		line-height: 1.56;
+	}
 
-    .button-border {
-        width: 309px;
-        height: 60px;
-        padding: 16px 64px;
+	.button-border {
+		width: 309px;
+		height: 60px;
+		padding: 16px 64px;
 
-        cursor: pointer;
+		cursor: pointer;
 
-        font-size: 18px;;
-        line-height: 1.56;
-    }
+		font-size: 18px;
+		line-height: 1.56;
+	}
 
-    .button-inverse {
-        width: 309px;
-        height: 60px;
-        padding: 16px 64px;
+	.button-inverse {
+		width: 309px;
+		height: 60px;
+		padding: 16px 64px;
 
-        cursor: pointer;
+		cursor: pointer;
 
-        font-size: 18px;
-        line-height: 1.56;
-    }
+		font-size: 18px;
+		line-height: 1.56;
+	}
 }
 
 /* HOVER */
@@ -107,14 +113,27 @@
 .button-border:hover,
 .button-border:focus,
 .button:focus {
-    background-color: var(--action-green-color);
+	background-color: var(--action-green-color);
 
-    transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
 }
 
 .button-inverse:hover,
 .button-inverse:focus {
-    background-color: var(--light-gray-color);
+	background-color: var(--light-gray-color);
 
-    transition: background-color 250ms var(--timing-function);
+	transition: background-color 250ms var(--timing-function);
+}
+
+@media screen and (max-width: 374px) {
+	.proposal-button {
+		padding: 14px 18px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.proposal-button {
+		max-width: 255px;
+		padding: 14px 38px;
+	}
 }
