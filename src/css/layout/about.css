@@ -6,8 +6,8 @@
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 1.2;
-	letter-spacing: -0.64px;
+	line-height: 1.12;
+	letter-spacing: -0.02em;
 	margin-bottom: 16px;
 }
 
@@ -88,7 +88,7 @@
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 700;
-	line-height: 1.13;
+	line-height: 1.14;
 	letter-spacing: -0.56px;
 
 	display: block;

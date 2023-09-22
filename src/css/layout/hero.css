@@ -82,7 +82,7 @@
 		position: relative;
 
 		padding: 260px 32px 295px;
-
+		margin-top: 32px;
 		border-radius: 30px;
 	}
 
@@ -90,7 +90,7 @@
 		font-size: 60px;
 		font-style: normal;
 		font-weight: 700;
-		line-height: 1.05;
+		line-height: 1.16;
 
 		margin-bottom: 32px;
 		width: 488px;
@@ -141,6 +141,7 @@
 		padding-left: 64px;
 
 		border-radius: 30px;
+		margin-top: 0;
 	}
 
 	.hero-title {
