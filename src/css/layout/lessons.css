@@ -73,6 +73,12 @@
 	}
 }
 
+@media screen and (min-width: 1280px) {
+	.lessons-list {
+		justify-content: center;
+	}
+}
+
 .lessons-list-card {
 	width: 100%;
 	padding: 40px 20px;
