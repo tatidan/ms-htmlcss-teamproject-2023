@@ -114,16 +114,6 @@
     .proposal-card-img {
         display: none;
     }
-
-    .proposal-button {
-        width: 255px;
-        padding: 14px 58px;
-
-        border-radius: 12px;
-
-        font-size: 14px;
-        line-height: 1.7;
-    }
 }
 
 /* Tablet */
