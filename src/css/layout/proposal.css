@@ -27,7 +27,7 @@
 
 .first {
     top: 264px;
-    left: 10;
+    left: 10px;
 
     width: 295px;
     height: 408px;
@@ -53,7 +53,7 @@
     position: absolute;
     top: 265px;
 
-    width: 294px;
+    max-width: 294px;
     height: 408px;
 
     padding: 40px 20px;
@@ -114,16 +114,6 @@
     .proposal-card-img {
         display: none;
     }
-
-    .proposal-button {
-        width: 255px;
-        padding: 14px 58px;
-
-        border-radius: 12px;
-
-        font-size: 14px;
-        line-height: 1.7;
-    }
 }
 
 /* Tablet */
@@ -142,9 +132,8 @@
     }
 
     .proposal-background-card {
-        flex-shrink: 0;
-
         border-radius: 30px;
+        flex-shrink: 0;
     }
 
     .first {

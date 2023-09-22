@@ -1,0 +1,202 @@
+.hero {
+	margin-top: 8px;
+	margin-bottom: 80px;
+}
+
+.hero-container {
+	position: relative;
+
+	padding: 425px 20px 72px;
+
+	border-radius: 16px;
+
+	background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+		url(/img/hero-img/hero-mob.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+@media only screen and (min-resolution: 192dpi), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+	.hero-container {
+		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+			url(/img/hero-img/hero-mob@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+.hero-title {
+	position: relative;
+
+	color: var(--primary-white-color);
+	font-family: var(--primary-font-family);
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.05;
+
+	margin-bottom: 40px;
+}
+
+.asside {
+	color: var(--light-2-green-color);
+	font-family: var(--primary-font-family);
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 1.05;
+}
+
+.scrolldown-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+
+	right: 14px;
+	bottom: 14px;
+
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	border: none;
+
+	background-color: var(--primary-white-color);
+	fill: var(--primary-green-color);
+
+	transition: background-color 250ms var(--timing-function);
+}
+
+.scrolldown-button:hover,
+.scrolldown-button:focus {
+	background-color: var(--primary-green-color);
+	fill: var(--primary-white-color);
+
+	transition: background-color 250ms var(--timing-function), fill 250ms var(--timing-function);
+}
+/**
+  |============================
+  | Tablet
+  |============================
+*/
+
+@media only screen and (min-width: 768px) {
+	.hero-container {
+		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+			url(/img/hero-img/hero-tab.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+	}
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi),
+	(min-width: 768px) and (min-device-pixel-ratio: 2),
+	(min-width: 768px) and (min-resolution: 2dppx) {
+	.hero-container {
+		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+			url(/img/hero-img/hero-tab@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.section {
+		margin-bottom: 100px;
+	}
+
+	.hero-container {
+		position: relative;
+
+		padding: 260px 32px 295px;
+
+		border-radius: 30px;
+	}
+
+	.hero-title {
+		font-size: 60px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1.05;
+
+		margin-bottom: 32px;
+		width: 488px;
+	}
+
+	.hero-button {
+		width: initial;
+		border-style: none;
+	}
+
+	.asside {
+		font-size: 60px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 1.15;
+	}
+
+	.scrolldown-button {
+		right: 32px;
+		bottom: 32px;
+
+		width: 48px;
+		height: 48px;
+		border-radius: 50%;
+		border: none;
+	}
+}
+
+/**
+  |============================
+  | desktop
+  |============================
+*/
+@media only screen and (min-width: 1280px) {
+	.hero-container {
+		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+			url(/img/hero-img/hero-desc.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+	}
+}
+
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi),
+	(min-width: 1280px) and (min-device-pixel-ratio: 2),
+	(min-width: 1280px) and (min-resolution: 2dppx) {
+	.hero-container {
+		background: linear-gradient(96deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+			url(/img/hero-img/hero-desc@2x.jpeg), lightgray 0px -122.887px / 113.889% 139.074% no-repeat;
+
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.container {
+		width: 1280px;
+		padding-right: 64px;
+		padding-left: 64px;
+	}
+
+	.hero {
+		margin-top: 16px;
+		margin-bottom: 96px;
+	}
+
+	.hero-container {
+		padding-top: 164px;
+		padding-bottom: 163px;
+		padding-left: 64px;
+
+		border-radius: 30px;
+	}
+
+	.hero-title {
+		width: 546px;
+	}
+}
