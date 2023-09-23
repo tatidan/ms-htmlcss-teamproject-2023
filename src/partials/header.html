@@ -1,13 +1,17 @@
 <header class="header">
 	<div class="container header-container">
 		<nav class="header-nav">
-			<a href="" class="logo link">english<span class="logo-accent">excellence</span>. </a>
+			<a href="../index.html" class="logo link">english<span class="logo-accent">excellence</span>. </a>
 			<ul class="nav-list header-nav-list list">
-				<li class="nav-item"><a href="#about-us" class="nav-link">About us</a></li>
-				<li class="nav-item"><a href="#our-lessons" class="nav-link">Our lessons</a></li>
-				<li class="nav-item"><a href="#teachers" class="nav-link">Teachers</a></li>
-				<li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
-				<li class="nav-item"><a href="#contact-us" class="nav-link">Contact us</a></li>
+				<li class="nav-item"><a href="#about-us" class="nav-link" aria-label="Learn about us">About us</a></li>
+				<li class="nav-item"
+					><a href="#our-lessons" class="nav-link" aria-label="Learn about out lessons">Our lessons</a></li
+				>
+				<li class="nav-item"
+					><a href="#teachers" class="nav-link" aria-label="Learn about our teachers">Teachers</a></li
+				>
+				<li class="nav-item"><a href="#reviews" class="nav-link" aria-label="Learn our reviews">Reviews</a></li>
+				<li class="nav-item"><a href="#contact-us" class="nav-link" aria-label="Contact us">Contact us</a></li>
 			</ul>
 			<button class="mobile-menu-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
 				<svg class="icon-humburger" width="32" height="33">
@@ -17,21 +21,39 @@
 		</nav>
 		<ul class="social-header-list list">
 			<li>
-				<a href="https://www.facebook.com/goITclub/" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.facebook.com/goITclub/"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Facebook page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="./img/sprite.svg#icon-facebook"></use>
 					</svg>
 				</a>
 			</li>
 			<li>
-				<a href="https://www.instagram.com/goitclub/" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.instagram.com/goitclub/"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Instagram page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="./img/sprite.svg#icon-instagram"></use>
 					</svg>
 				</a>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/c/GoIT" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.youtube.com/c/GoIT"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Youtube page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="./img/sprite.svg#icon-youtube"></use>
 					</svg>
@@ -43,7 +65,12 @@
 
 <div class="mobile-backdrop js-menu-container" id="mobile-menu">
 	<div class="mobile-menu-container">
-		<button type="button" class="mobile-menu-close-btn js-close-menu">
+		<button
+			type="button"
+			id="buttonMobileMenu"
+			aria-label="button-mobile-menu"
+			class="mobile-menu-close-btn js-close-menu"
+		>
 			<svg class="icon-close-btn" width="32" height="32">
 				<use href="./img/sprite.svg#icon-close"></use>
 			</svg>
@@ -62,6 +89,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Facebook page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="./img/sprite.svg#icon-facebook"></use>
@@ -74,6 +102,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Instagram page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="./img/sprite.svg#icon-instagram"></use>
@@ -86,6 +115,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Youtube page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="./img/sprite.svg#icon-youtube"></use>
