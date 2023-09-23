@@ -41,20 +41,20 @@ button {
 
 /* Mobile-first */
 .section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   .section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
   .section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 /* ================== /COMMON ================== */
