@@ -119,7 +119,7 @@
 
 @media screen and (min-width: 768px) {
 	.about-container {
-		padding: 0 auto;
+		margin: 0 auto;
 	}
 
 	.about-title {
