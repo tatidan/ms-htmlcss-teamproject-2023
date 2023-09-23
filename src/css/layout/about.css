@@ -89,7 +89,7 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.14;
-	letter-spacing: -0.56px;
+	letter-spacing: -0.02em;
 
 	display: block;
 	margin-bottom: 16px;
@@ -102,7 +102,7 @@
 	font-style: normal;
 	font-weight: 700;
 	line-height: 1.2;
-	letter-spacing: -0.4px;
+	letter-spacing: -0.02em;
 
 	border-radius: 30px;
 	background: var(--light-gray-color);
@@ -125,13 +125,14 @@
 	}
 
 	.about-title {
-		letter-spacing: -0.8px;
+		letter-spacing: -0.02em;
 		font-size: 40px;
 	}
 
 	.about-text {
 		line-height: 1.66;
 		font-size: 18px;
+		width: 658px;
 
 		padding: 0 23px;
 
@@ -151,7 +152,7 @@
 		position: relative;
 
 		display: flex;
-		gap: 20px;
+		gap: 32px;
 		margin: 0 auto;
 	}
 
