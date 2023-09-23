@@ -18,13 +18,17 @@
 		<header class="header">
 	<div class="container header-container">
 		<nav class="header-nav">
-			<a href="" class="logo link">english<span class="logo-accent">excellence</span>. </a>
+			<a href="../index.html" class="logo link">english<span class="logo-accent">excellence</span>. </a>
 			<ul class="nav-list header-nav-list list">
-				<li class="nav-item"><a href="#about-us" class="nav-link">About us</a></li>
-				<li class="nav-item"><a href="#our-lessons" class="nav-link">Our lessons</a></li>
-				<li class="nav-item"><a href="#teachers" class="nav-link">Teachers</a></li>
-				<li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
-				<li class="nav-item"><a href="#contact-us" class="nav-link">Contact us</a></li>
+				<li class="nav-item"><a href="#about-us" class="nav-link" aria-label="Learn about us">About us</a></li>
+				<li class="nav-item"
+					><a href="#our-lessons" class="nav-link" aria-label="Learn about out lessons">Our lessons</a></li
+				>
+				<li class="nav-item"
+					><a href="#teachers" class="nav-link" aria-label="Learn about our teachers">Teachers</a></li
+				>
+				<li class="nav-item"><a href="#reviews" class="nav-link" aria-label="Learn our reviews">Reviews</a></li>
+				<li class="nav-item"><a href="#contact-us" class="nav-link" aria-label="Contact us">Contact us</a></li>
 			</ul>
 			<button class="mobile-menu-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
 				<svg class="icon-humburger" width="32" height="33">
@@ -34,21 +38,39 @@
 		</nav>
 		<ul class="social-header-list list">
 			<li>
-				<a href="https://www.facebook.com/goITclub/" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.facebook.com/goITclub/"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Facebook page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-facebook"></use>
 					</svg>
 				</a>
 			</li>
 			<li>
-				<a href="https://www.instagram.com/goitclub/" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.instagram.com/goitclub/"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Instagram page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-instagram"></use>
 					</svg>
 				</a>
 			</li>
 			<li>
-				<a href="https://www.youtube.com/c/GoIT" class="social-link" target="_blank" rel="noopener no-referrer">
+				<a
+					href="https://www.youtube.com/c/GoIT"
+					class="social-link"
+					target="_blank"
+					rel="noopener no-referrer"
+					aria-label="Visit our Youtube page"
+				>
 					<svg class="icon-social" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-youtube"></use>
 					</svg>
@@ -60,7 +82,12 @@
 
 <div class="mobile-backdrop js-menu-container" id="mobile-menu">
 	<div class="mobile-menu-container">
-		<button type="button" class="mobile-menu-close-btn js-close-menu">
+		<button
+			type="button"
+			id="buttonMobileMenu"
+			aria-label="button-mobile-menu"
+			class="mobile-menu-close-btn js-close-menu"
+		>
 			<svg class="icon-close-btn" width="32" height="32">
 				<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-close"></use>
 			</svg>
@@ -79,6 +106,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Facebook page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-facebook"></use>
@@ -91,6 +119,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Instagram page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-instagram"></use>
@@ -103,6 +132,7 @@
 					class="mobile-social-link link"
 					target="_blank"
 					rel="noopener no-referrer"
+					aria-label="Visit our Youtube page"
 				>
 					<svg class="icon-social-mobile" width="28" height="28">
 						<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-youtube"></use>
@@ -117,7 +147,7 @@
 	<div class="container">
 		<div class="hero-container">
 			<h1 class="hero-title"> Discover the joy of learning <span class="asside">English</span> with us! </h1>
-			<div class="button slide-right"> <a href="#contact-us">Leave an application </a></div>
+			<div class="button slide-right"> <a href="#contact-us" aria-label="Contact us">Leave an application </a></div>
 			<a class="scrolldown-button" href="#footer">
 				<svg class=" " width="24" height="24">
 					<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-greenButton"></use>
@@ -166,7 +196,9 @@
 					>This plan offers an opportunity for learners to engage in collaborative language exercises and group
 					activities, boosting their conversational skills and confidence in using English.</p
 				>
-				<a class="button lesson-button link" href="#contact-us">Leave an application</a>
+				<a class="button lesson-button link" href="#contact-us" aria-label="Leave and application"
+					>Leave an application</a
+				>
 			</li>
 			<li class="lessons-list-card">
 				<h3 class="lesson-card-title">Standard</h3>
@@ -175,7 +207,9 @@
 					>Our standard package provides a balanced learning approach that covers all key areas of English language -
 					reading, writing, listening, and speaking. It is a set of basic knowledge and skills.</p
 				>
-				<a class="button button-border lesson-button link" href="#contact-us">Leave an application</a>
+				<a class="button button-border lesson-button link" href="#contact-us" aria-label="Leave and application"
+					>Leave an application</a
+				>
 			</li>
 			<li class="lessons-list-card">
 				<h3 class="lesson-card-title">Individual</h3>
@@ -184,7 +218,7 @@
 					>We offer a tailored learning experience with individualized instruction that focuses on a learner's specific
 					language goals and challenges, offering personal feedback.</p
 				>
-				<a class="button lesson-button-inverse lesson-button link" href="#contact-us"
+				<a class="button lesson-button-inverse lesson-button link" href="#contact-us" aria-label="Leave and application"
 					>Leave an application</a
 				>
 			</li>
@@ -193,58 +227,63 @@
 </section>
 
 		<section class="section">
-  <div class="container">
-    <div class="proposal">
-      <h2 class="visually-hidden">Proposal to leave an application</h2>
-      <p class="proposal-call">
-        Master the
-        <span class="proposal-call-green">Language</span>
-        with Our English Package!
-      </p>
-      <div class="proposal-background-card first"></div>
-      <div class="proposal-background-card middle"></div>
-      <div class="proposal-card">
-        <div class="proposal-card-box">
-          <h3 class="proposal-card-title">Power of English</h3>
-          <ul class="proposal-card-list">
-            <li class="proposal-card-item">
-              <div class="proposal-card-item-check">
-                <svg width="20" height="20" class="">
-                  <use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
-                </svg>
-              </div>
-              <p>Dive into captivating lessons designed to stimulate your curiosity.</p>
-            </li>
-            <li class="proposal-card-item">
-              <div class="proposal-card-item-check">
-                <svg width="20" height="20" class="">
-                  <use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
-                </svg>
-              </div>
-              <p>Learn in a nurturing setting where every student's progress matters.</p>
-            </li>
-            <li class="proposal-card-item">
-              <div class="proposal-card-item-check">
-                <svg width="20" height="20">
-                  <use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
-                </svg>
-              </div>
-              <p>Experience the satisfaction of real progress as your language skills and confidence grow with every session.</p>
-            </li>
-          </ul>
-          <a class="button proposal-button slide-right" href="#contact-us">Leave an application</a>
-        </div>
-        <img
-          class="proposal-card-img"
-          srcset="/ms-htmlcss-teamproject-2023/assets/stack-of-books-d00fea82.webp 1x, /ms-htmlcss-teamproject-2023/assets/stack-of-books@2x-9b372a80.webp 2x"
-          src="/ms-htmlcss-teamproject-2023/assets/stack-of-books-d00fea82.webp"
-          alt="Steck of books"
-          width="214"
-          height="163"
-        />
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="proposal">
+			<h2 class="visually-hidden">Proposal to leave an application</h2>
+			<p class="proposal-call">
+				Master the
+				<span class="proposal-call-green">Language</span>
+				with Our English Package!
+			</p>
+			<div class="proposal-background-card first"></div>
+			<div class="proposal-background-card middle"></div>
+			<div class="proposal-card">
+				<div class="proposal-card-box">
+					<h3 class="proposal-card-title">Power of English</h3>
+					<ul class="proposal-card-list">
+						<li class="proposal-card-item">
+							<div class="proposal-card-item-check">
+								<svg width="20" height="20" class="">
+									<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
+								</svg>
+							</div>
+							<p>Dive into captivating lessons designed to stimulate your curiosity.</p>
+						</li>
+						<li class="proposal-card-item">
+							<div class="proposal-card-item-check">
+								<svg width="20" height="20" class="">
+									<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
+								</svg>
+							</div>
+							<p>Learn in a nurturing setting where every student's progress matters.</p>
+						</li>
+						<li class="proposal-card-item">
+							<div class="proposal-card-item-check">
+								<svg width="20" height="20">
+									<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-check"></use>
+								</svg>
+							</div>
+							<p
+								>Experience the satisfaction of real progress as your language skills and confidence grow with every
+								session.</p
+							>
+						</li>
+					</ul>
+					<a class="button proposal-button slide-right" href="#contact-us" aria-label="Leave and application"
+						>Leave an application</a
+					>
+				</div>
+				<img
+					class="proposal-card-img"
+					srcset="/ms-htmlcss-teamproject-2023/assets/stack-of-books-d00fea82.webp 1x, /ms-htmlcss-teamproject-2023/assets/stack-of-books@2x-9b372a80.webp 2x"
+					src="/ms-htmlcss-teamproject-2023/assets/stack-of-books-d00fea82.webp"
+					alt="Steck of books"
+					width="214"
+					height="163"
+				/>
+			</div>
+		</div>
+	</div>
 </section>
 
 		<section class="block-team section" id="teachers">
@@ -333,114 +372,75 @@
 </section>
 
 		<section class="section">
-  <div class="container leave-container">
-    <h2 class="leave-title" id="contact-us">
-      Leave an <span class="leave-upper">application</span>
-    </h2>
-    <p class="leave-text">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-    <div class="leave-wrapper">
-      <div class="leave-card-wrapper">
-        <div class="leave-text-wrapper">
-          <p class="leave-card-big-text">1000</p>
-          <p class="leave-card-text">
-            of our online English language lessons! This journey has been full
-            of discovery, growth and unforgettable moments, and we are happy to
-            share this joyful event with you.
-          </p>
-        </div>
-      </div>
-      <form class="leave-form leave-feedback" id="leaveForm">
-        <div class="leave-input-group">
-          <input
-            class="leave-form-input"
-            type="text"
-            name="user-name"
-            placeholder="Name"
-            required
-          />
-          <input
-            class="leave-form-input"
-            type="email"
-            name="user-email"
-            placeholder="Email"
-            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-            required
-          />
-          <input
-            class="leave-form-input"
-            type="tel"
-            name="user-phone"
-            placeholder="Phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-          />
-          <textarea
-            class="leave-form-input teaxtarea-input"
-            name="user-comment"
-            placeholder="Comment"
-            rows="4"
-            required
-          ></textarea>
-        </div>
-        <fieldset class="leave-radio-group">
-          <legend class="leave-radio-group-title">Choose a teacher</legend>
-          <div class="leave-radio">
-            <input
-              class="leave-radio-input"
-              type="radio"
-              name="teacher"
-              value="maria"
-              id="radio-maria"
-              checked
-            />
-            <label class="leave-radio-label" for="radio-maria">Maria</label>
-          </div>
-          <div class="leave-radio">
-            <input
-              class="leave-radio-input"
-              type="radio"
-              name="teacher"
-              value="artem"
-              id="radio-artem"
-            />
-            <label class="leave-radio-label" for="radio-artem">Artem</label>
-          </div>
-          <div class="leave-radio">
-            <input
-              class="leave-radio-input"
-              type="radio"
-              name="teacher"
-              value="ilona"
-              id="radio-ilona"
-            />
-            <label class="leave-radio-label" for="radio-ilona">Ilona</label>
-          </div>
-          <div class="leave-radio">
-            <input
-              class="leave-radio-input"
-              type="radio"
-              name="teacher"
-              value="volodymyr"
-              id="radio-volodymyr"
-            />
-            <label class="leave-radio-label" for="radio-volodymyr"
-              >Volodymyr</label
-            >
-          </div>
-        </fieldset>
-        <button class="leave-form-btn" type="submit" id="submitButton">
-          Send
-        </button>
-        <p class="leave-form-policy">
-          By clicking on “Send” button, you agree to our
-          <a class="leave-form-policy-link" href="">Privacy Policy</a>, and
-          allow Promodo to use this information for marketing purposes.
-        </p>
-      </form>
-    </div>
-  </div>
+	<div class="container leave-container">
+		<h2 class="leave-title" id="contact-us"> Leave an <span class="leave-upper">application</span> </h2>
+		<p class="leave-text">
+			Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
+		</p>
+		<div class="leave-wrapper">
+			<div class="leave-card-wrapper">
+				<div class="leave-text-wrapper">
+					<p class="leave-card-big-text">1000</p>
+					<p class="leave-card-text">
+						of our online English language lessons! This journey has been full of discovery, growth and unforgettable
+						moments, and we are happy to share this joyful event with you.
+					</p>
+				</div>
+			</div>
+			<form class="leave-form leave-feedback" id="leaveForm">
+				<div class="leave-input-group">
+					<input class="leave-form-input" type="text" name="user-name" placeholder="Name" required />
+					<input
+						class="leave-form-input"
+						type="email"
+						name="user-email"
+						placeholder="Email"
+						pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+						required
+					/>
+					<input
+						class="leave-form-input"
+						type="tel"
+						name="user-phone"
+						placeholder="Phone"
+						pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+					/>
+					<textarea
+						class="leave-form-input teaxtarea-input"
+						name="user-comment"
+						placeholder="Comment"
+						rows="4"
+						required
+					></textarea>
+				</div>
+				<fieldset class="leave-radio-group">
+					<legend class="leave-radio-group-title">Choose a teacher</legend>
+					<div class="leave-radio">
+						<input class="leave-radio-input" type="radio" name="teacher" value="maria" id="radio-maria" checked />
+						<label class="leave-radio-label" for="radio-maria">Maria</label>
+					</div>
+					<div class="leave-radio">
+						<input class="leave-radio-input" type="radio" name="teacher" value="artem" id="radio-artem" />
+						<label class="leave-radio-label" for="radio-artem">Artem</label>
+					</div>
+					<div class="leave-radio">
+						<input class="leave-radio-input" type="radio" name="teacher" value="ilona" id="radio-ilona" />
+						<label class="leave-radio-label" for="radio-ilona">Ilona</label>
+					</div>
+					<div class="leave-radio">
+						<input class="leave-radio-input" type="radio" name="teacher" value="volodymyr" id="radio-volodymyr" />
+						<label class="leave-radio-label" for="radio-volodymyr">Volodymyr</label>
+					</div>
+				</fieldset>
+				<button class="leave-form-btn" type="submit" id="submitButton"> Send </button>
+				<p class="leave-form-policy">
+					By clicking on “Send” button, you agree to our
+					<a class="leave-form-policy-link" href="#" aria-label="Privacy Policy">Privacy Policy</a>, and allow Promodo
+					to use this information for marketing purposes.
+				</p>
+			</form>
+		</div>
+	</div>
 </section>
 
 		<section class="review-container container section" id="reviews">
@@ -509,6 +509,7 @@
 								href="https://maps.app.goo.gl/CSK1DhMEY9TRUXh29"
 								target="_blank"
 								rel="noopener noreferrer"
+                aria-label="See address on the map"
 								>32a M. Bazhana ave</a
 							>
 						</li>
@@ -520,19 +521,19 @@
 			<nav class="footer-nav">
 				<ul class="nav-list footer-nav-list list">
 					<li class="nav-item">
-						<a class="nav-link footer-nav-link link" href="#about-us">About us</a>
+						<a class="nav-link footer-nav-link link" href="#about-us" aria-label="Learn About Us">About us</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link footer-nav-link link" href="#our-lessons">Our lessons</a>
+						<a class="nav-link footer-nav-link link" href="#our-lessons" aria-label="Learn about Our Lessons">Our lessons</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link footer-nav-link link" href="#teachers">Teachers</a>
+						<a class="nav-link footer-nav-link link" href="#teachers" aria-label="Learn About Teachers">Teachers</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link footer-nav-link link" href="#reviews">Reviews</a>
+						<a class="nav-link footer-nav-link link" href="#reviews" aria-label="Learn our Reviews">Reviews</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link footer-nav-link link" href="#leave-section">Contact us</a>
+						<a class="nav-link footer-nav-link link" href="#leave-section" aria-label="Leave and Application">Contact us</a>
 					</li>
 				</ul>
 			</nav>
@@ -545,6 +546,7 @@
 							href="https://www.facebook.com/goITclub/"
 							target="_blank"
 							rel="noopener norefferer"
+              aria-label="Visit our Facebook page"
 						>
 							<svg class="footer-icon" aria-label="facebook icon" width="28" height="28">
 								<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-facebook"></use>
@@ -557,6 +559,7 @@
 							href="https://www.instagram.com/goitclub/"
 							target="_blank"
 							rel="noopener norefferer"
+              aria-label="Visit our Instagram page"
 						>
 							<svg class="footer-icon" aria-label="instagram icon" width="28" height="28">
 								<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-instagram"></use>
@@ -564,7 +567,7 @@
 						</a>
 					</li>
 					<li class="footer-icon-item">
-						<a class="footer-icon-link" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener norefferer">
+						<a class="footer-icon-link" href="https://www.youtube.com/c/GoIT" target="_blank" rel="noopener norefferer" aria-label="Visit our Youtube Page">
 							<svg class="footer-icon" aria-label="youtube icon" width="28" height="28">
 								<use href="/ms-htmlcss-teamproject-2023/assets/sprite-fc8bb0b1.svg#icon-youtube"></use>
 							</svg>
@@ -578,8 +581,8 @@
 			<div class="footer-text-wrapper">
 				<p class="footer-text"> ©2023 English Excellence. All rights reserved. </p>
 				<div class="footer-text-wrap">
-          <p class="footer-text"><a href="" target="_blank" class="footer-link link">Privacy Policy</a></p>
-          <p class="footer-text"><a href="" target="_blank" class="footer-link link">Terms of Service</a></p>
+          <p class="footer-text"><a href="#" target="_blank" class="footer-link link" aria-label="Privacy Policy">Privacy Policy</a></p>
+          <p class="footer-text"><a href="#" target="_blank" class="footer-link link" aria-label="Terms of Service">Terms of Service</a></p>
 				</div>
 			</div>
 		</div>
