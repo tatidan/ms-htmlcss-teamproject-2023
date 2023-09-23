@@ -109,8 +109,6 @@
 
 	padding: 32px;
 	margin: 0 auto;
-
-	height: 160px;
 }
 
 .about-memoji {
@@ -157,7 +155,6 @@
 	.about-list {
 		flex-direction: row;
 
-		width: 684px;
 		gap: 32px;
 	}
 
@@ -178,7 +175,9 @@
 	.about-wrapper {
 		flex-direction: row;
 	}
-
+	.about-list {
+		width: 682px;
+	}
 	.about-wrapper::after {
 		height: initial;
 	}
