@@ -1,254 +1,252 @@
 /* Mobile-first */
 .proposal {
-    position: relative;
+	position: relative;
 
-    padding: 40px 20px 64px 20px;
+	padding: 40px 20px 64px 20px;
 
-    border-radius: 16px;
-    background: linear-gradient(85deg, #4DC274 2.25%, #BEE8CC 131.25%);
+	border-radius: 16px;
+	background: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
 
-    z-index: 0;
+	z-index: 0;
 }
 
 .proposal-call {
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 1.05;
-    color: var(--primary-white-color);
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 1.05;
+	color: var(--primary-white-color);
 }
 
 .proposal-call-green {
-    color: var(--light-2-green-color);
+	color: var(--light-2-green-color);
 }
 
 .proposal-background-card {
-    position: absolute;
+	position: absolute;
 
-    width: 295px;
-    height: 408px;
+	width: 295px;
+	height: 408px;
 
-    border-radius: 16px;
+	border-radius: 16px;
 }
 
 .first {
-    top: 294px;
-    left: 50%;
-    transform: rotate(11deg) translateX(-50%);
-    z-index: -2;
+	top: 294px;
+	left: 50%;
+	transform: rotate(11deg) translateX(-50%);
+	z-index: -2;
 
-    background: var(--light-student-color);
+	background: var(--light-student-color);
 }
 
 .middle {
-    top: 248px;
-    left: 50%;
-    transform: rotate(-8deg) translateX(-50%);
-    z-index: -1;
+	top: 248px;
+	left: 50%;
+	transform: rotate(-8deg) translateX(-50%);
+	z-index: -1;
 
-    background: var(--light-green-color);
+	background: var(--light-green-color);
 }
 
 .proposal-card {
-    margin-top: 64px;
+	margin-top: 64px;
 
-    padding: 40px 20px;
+	padding: 40px 20px;
 
-    border-radius: 16px;
-    background: var(--primary-white-color);
+	border-radius: 16px;
+	background: var(--primary-white-color);
 }
 
 .proposal-card-list {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .proposal-card-item {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.43;
-    letter-spacing: -0.28px;
-    color: var(--primary-black-color);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.43;
+	letter-spacing: -0.28px;
+	color: var(--primary-black-color);
 }
 
 .proposal-card-item:not(:last-child) {
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 .proposal-card-title {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: -0.4px;
-    color: var(--primary-black-color);
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: -0.4px;
+	color: var(--primary-black-color);
 }
 
 .proposal-card-item {
-    margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 .proposal-card-item-check {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    padding: 3px;
-    margin-right: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	padding: 3px;
+	margin-right: 8px;
 
-    border-radius: 50%;
-    background-color: var(--primary-green-color);
+	border-radius: 50%;
+	background-color: var(--primary-green-color);
 
-    stroke: var(--primary-white-color);
+	stroke: var(--primary-white-color);
 }
 
 @media screen and (max-width: 374px) {
-    .proposal-background-card {
-        width: 240px;
-    }
+	.proposal-background-card {
+		width: 240px;
+	}
 
-    .first {
-        display: none;
-    }
+	.first {
+		display: none;
+	}
 
-    .middle {
-        display: none;
-    }
+	.middle {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 767px) {
-    .proposal-card {
-        max-width: 294px;
-    }
+	.proposal-card {
+		max-width: 294px;
+	}
 
-    .proposal-card-img {
-        display: none;
-    }
+	.proposal-card-img {
+		display: none;
+	}
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-    .proposal {
-        width: 704px;
-        height: 950px;
-        padding: 64px 32px 92px 32px;
+	.proposal {
+		width: 704px;
+		height: 950px;
+		padding: 64px 32px 92px 32px;
 
-        border-radius: 30px;
-    }
+		border-radius: 30px;
+	}
 
-    .proposal-call {
-        font-size: 60px;
-        line-height: 1.17;
-    }
+	.proposal-call {
+		font-size: 60px;
+		line-height: 1.17;
+	}
 
-    .proposal-background-card {
-        border-radius: 30px;
-        flex-shrink: 0;
-    }
+	.proposal-background-card {
+		border-radius: 30px;
+		flex-shrink: 0;
+	}
 
-    .first {
-        top: 425px;
+	.first {
+		top: 425px;
 
-        width: 668px;
-        height: 500px;
-    }
+		width: 668px;
+		height: 500px;
+	}
 
-    .middle {
-        top: 318px;
+	.middle {
+		top: 318px;
 
-        width: 668px;
-        height: 500px;
-    }
+		width: 668px;
+		height: 500px;
+	}
 
-    .proposal-card {
+	.proposal-card {
+		display: flex;
+		height: 500px;
+		flex-shrink: 0;
+		padding: 64px 0 64px 32px;
+		margin-top: 84px;
 
-        display: flex;
-        height: 500px;
-        flex-shrink: 0;
-        padding: 64px 0 64px 32px;
-        margin-top: 84px;
+		border-radius: 30px;
+	}
 
-        border-radius: 30px;
-    }
+	.proposal-card-title {
+		margin-bottom: 40px;
 
-    .proposal-card-title {
-        margin-bottom: 40px;
+		font-size: 40px;
+		letter-spacing: -0.8px;
+	}
 
-        font-size: 40px;
-        letter-spacing: -0.8px;
-    }
+	.proposal-card-list {
+		margin-right: 22px;
+		margin-bottom: 32px;
+	}
 
-    .proposal-card-list {
-        margin-right: 22px;
-        margin-bottom: 32px;
-    }
+	.proposal-card-item {
+		font-size: 20px;
+		line-height: 1.2;
+		letter-spacing: -0.4px;
+	}
 
-    .proposal-card-item {
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: -0.4px;
-    }
+	.proposal-card-item-check {
+		width: 28px;
+		height: 28px;
+		flex-shrink: 0;
+		margin-right: 16px;
+	}
 
-    .proposal-card-item-check {
-        width: 28px;
-        height: 28px;
-        flex-shrink: 0;
-        margin-right: 16px;
-    }
-
-    .proposal-card-img {
-        width: 186px;
-        margin-top: 112px;
-        margin-right: -20px;
-    }
+	.proposal-card-img {
+		width: 214px;
+		margin-top: 112px;
+		margin-right: -20px;
+	}
 }
 
 @media screen and (max-width: 1279px) {
-    .proposal-card {
-        max-width: 668px;
-    }
+	.proposal-card {
+		max-width: 668px;
+	}
 }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
+	.proposal {
+		width: 1152px;
+		padding: 64px 312px 142px 64px;
+	}
 
-    .proposal {
-        width: 1152px;
-        padding: 64px 312px 142px 64px;
-    }
+	.first {
+		top: 460px;
 
-    .first {
-        top: 460px;
+		width: 1010px;
+		height: 402px;
+	}
 
-        width: 1010px;
-        height: 402px;
-    }
+	.middle {
+		top: 280px;
 
-    .middle {
-        top: 280px;
+		width: 1050px;
+		height: 462px;
+	}
 
-        width: 1050px;
-        height: 462px;
-    }
+	.proposal-card {
+		width: 1024px;
+		height: 471px;
+		padding: 64px 0 64px 64px;
+		margin-top: 132px;
+	}
 
-    .proposal-card {
-        width: 1024px;
-        height: 471px;
-        padding: 64px 0 64px 64px;
-        margin-top: 132px;
-    }
+	.proposal-card-list {
+		width: 654px;
+		margin-right: 92px;
+		margin-bottom: 40px;
+	}
 
-    .proposal-card-list {
-        width: 654px;
-        margin-right: 92px;
-        margin-bottom: 40px;
-    }
-
-    .proposal-card-img {
-        margin-top: 64px;
-        margin-bottom: 16px;
-    }
+	.proposal-card-img {
+		margin-top: 64px;
+		margin-bottom: 16px;
+	}
 }
