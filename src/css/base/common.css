@@ -41,7 +41,7 @@ button {
 
 /* SECTION */
 /* Mobile-first */
-.section-hero {
+.section-first {
   padding-bottom: 40px;
 }
 
@@ -57,7 +57,7 @@ button {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .section-hero {
+  .section-first {
     padding-bottom: 50px;
   }
 
@@ -74,7 +74,7 @@ button {
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
-  .section-hero {
+  .section-first {
     padding-bottom: 75px;
   }
 
