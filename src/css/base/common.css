@@ -39,21 +39,52 @@ button {
     list-style: none;
 }
 
+/* SECTION */
 /* Mobile-first */
+.section-hero {
+  padding-bottom: 40px;
+}
+
 .section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-last {
+  padding-top: 40px;
   padding-bottom: 80px;
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .section-hero {
+    padding-bottom: 50px;
+  }
+
   .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section-last {
+    padding-top: 50px;
     padding-bottom: 100px;
   }
 }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
+  .section-hero {
+    padding-bottom: 75px;
+  }
+
   .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .section-last {
+    padding-top: 75px;
     padding-bottom: 150px;
   }
 }
